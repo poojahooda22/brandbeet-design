@@ -1,4 +1,5 @@
 .rowDiv {
-    width: calc(100%/5);
-    
+    width: calc(200vw/5);
+    height: 100%;
+    background-color: aquamarine;
 }

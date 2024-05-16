@@ -1,0 +1,15 @@
+.lftNav h1 {
+    transition: all 0.5s;
+}
+
+.lftNav:hover h1:nth-child(1){
+    margin-top: -1.8vw;
+}
+
+.rghtNav h3 {
+    transition: all 0.5s;
+}
+
+.rghtNav:hover h3:nth-child(1){
+    margin-top: -1.4vw;
+}

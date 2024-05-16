@@ -11,7 +11,8 @@ function Landing() {
       <div 
         className='contentPart1 w-[100%] h-[100vh]'
     >
-        <div className='rotateDiv w-[200vw] h-[200vh] bg-black  flex items-center justify-center gap-4'>
+        <div 
+        className='rotateDiv w-[200vw] h-[200vh] bg-black  flex items-center justify-center gap-4'>
             <div className={`rowDiv ${style.rowDiv}`}></div>
             <div className={`rowDiv ${style.rowDiv}`}></div>
             <div className={`rowDiv ${style.rowDiv}`}></div>

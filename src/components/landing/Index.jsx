@@ -16,7 +16,9 @@ function Landing() {
             h-[200vh] bg-black  flex items-center 
             justify-center gap-4'
         >
-            <div className={`rowDiv ${style.rowDiv}`}></div>
+            <div className={`rowDiv ${style.rowDiv}`}>
+                
+            </div>
             <div className={`rowDiv ${style.rowDiv}`}></div>
             <div className={`rowDiv ${style.rowDiv}`}></div>
             <div className={`rowDiv ${style.rowDiv}`}></div>

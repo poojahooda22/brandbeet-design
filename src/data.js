@@ -17,5 +17,8 @@ export const data = [
     {
         image1: "https://assets-global.website-files.com/64b117fb0e09e8ce5768e4fe/64ba4bd842f7724f0665b2cd_LAYOUT-18-p-1600.jpg",
     },
+    {
+        image1: "https://assets-global.website-files.com/64b117fb0e09e8ce5768e4fe/64ba4bd842f7724f0665b2cd_LAYOUT-18-p-1600.jpg",
+    },
 
 ]

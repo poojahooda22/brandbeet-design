@@ -15,7 +15,7 @@ function Landing() {
         justify-center'
       >
         <div 
-            className='rotateDiv w-[200vw] 
+          className='rotateDiv w-[200vw] 
             h-[200vh] bg-black  flex items-center
             justify-center gap-[3vw]'
         >

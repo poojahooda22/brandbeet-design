@@ -16,7 +16,8 @@ function Landing() {
       >
         <div 
           className='rotateDiv w-[200vw] 
-          h-[200vh] bg-black  flex items-center
+          h-[200vh] bg-black  
+          flex items-center
           justify-center gap-[3vw]'
         >
           <div className={`rowDiv ${style.rowDiv} space-y-8`}>

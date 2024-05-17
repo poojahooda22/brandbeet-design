@@ -13,7 +13,7 @@ function Landing() {
         h-[100vh] 
         flex items-start
         justify-center'
-    >
+      >
         <div 
             className='rotateDiv w-[200vw] 
             h-[200vh] bg-black  flex items-center

@@ -24,7 +24,7 @@ function Landing() {
           </div>
           <div className={`rowDiv ${style.rowDiv}`}></div>
           <div className={`rowDiv ${style.rowDiv}`}></div>
-            <div className={`rowDiv ${style.rowDiv}`}></div>
+          <div className={`rowDiv ${style.rowDiv}`}></div>
             <div className={`rowDiv ${style.rowDiv}`}></div>
         </div>
       </div>

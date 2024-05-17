@@ -5,7 +5,7 @@ import style from './style.module.css'
 function Landing() {
   return (
     <div 
-        className='part1 w-[100%] 
+      className='part1 w-[100%] 
         h-[100vh] bg-black '
     >
       <div 

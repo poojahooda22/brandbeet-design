@@ -6,7 +6,7 @@ function Landing() {
   return (
     <div 
       className='part1 w-[100%] 
-        h-[100vh] bg-black '
+      h-[100vh] bg-black '
     >
       <div 
         className='contentPart1 w-[100%] 

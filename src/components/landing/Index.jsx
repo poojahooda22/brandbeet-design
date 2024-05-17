@@ -9,7 +9,8 @@ function Landing() {
         h-[100vh] bg-black '
     >
       <div 
-        className='contentPart1 w-[100%] h-[100vh] 
+        className='contentPart1 w-[100%] 
+        h-[100vh] 
         flex items-start
         justify-center'
     >

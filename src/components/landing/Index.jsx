@@ -22,10 +22,12 @@ function Landing() {
         >
           <div className={`rowDiv ${style.rowDiv} space-y-8`}>
             <div className={`imgDiv ${style.imgDiv} bg-white`}>
-              
+
             </div>
           </div>
-          <div className={`rowDiv ${style.rowDiv}`}></div>
+          <div className={`rowDiv ${style.rowDiv}`}>
+            
+          </div>
           <div className={`rowDiv ${style.rowDiv}`}></div>
           <div className={`rowDiv ${style.rowDiv}`}></div>
           <div className={`rowDiv ${style.rowDiv}`}></div>

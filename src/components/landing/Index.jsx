@@ -28,7 +28,6 @@ function Landing() {
           <div className={`rowDiv ${style.rowDiv}`}>
           </div>
           <div className={`rowDiv ${style.rowDiv}`}>
-
           </div>
           <div className={`rowDiv ${style.rowDiv}`}>
 

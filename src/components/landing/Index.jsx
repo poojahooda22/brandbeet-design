@@ -18,7 +18,7 @@ function Landing() {
             justify-center gap-4'
         >
             <div className={`rowDiv ${style.rowDiv} space-y-8`}>
-                <div className={`imgDiv ${style.imgDiv} bg-white`}></div>
+              <div className={`imgDiv ${style.imgDiv} bg-white`}></div>
             </div>
             <div className={`rowDiv ${style.rowDiv}`}></div>
             <div className={`rowDiv ${style.rowDiv}`}></div>

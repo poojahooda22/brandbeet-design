@@ -1,12 +1,13 @@
 .rowDiv {
     width: calc(200vw/5);
     height: 100%;
-    background-color: rgb(108, 210, 150);
+    
 }
 
 .imgDiv {
     width: 100%;
     height: calc(100%/4);
-    background-color: azure
+    background-color: azure;
+    border-radius: 6px;
    
 }

@@ -7,5 +7,6 @@
 .imgDiv {
     width: 100%;
     height: calc(100%/4);
+    background-color: azure
    
 }

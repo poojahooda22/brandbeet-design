@@ -68,7 +68,7 @@ function Landing() {
               <img className='w-[100%] h-[100%] object-cover' src="https://assets-global.website-files.com/64b117fb0e09e8ce5768e4fe/64ba4bd8e3fee0b8d4e3a67b_LAYOUT-5-p-1600.jpg" alt="" />
             </div>
             <div className={`imgDiv ${style.imgDiv} `}>
-              <img className='w-[100%] h-[100%] object-cover' src="https://assets-global.website-files.com/64b117fb0e09e8ce5768e4fe/64be4044045bead03dffd01d_Frame%20427320116-p-1600.jpg" alt="" />
+              <img className='w-[100%] h-[100%] object-cover' src="https://assets-global.website-files.com/64b117fb0e09e8ce5768e4fe/64ba4bd8207f66103ea6893d_LAYOUT-2-p-1600.jpg" alt="" />
             </div>  
           </div>
           {/* // 2nd row */}

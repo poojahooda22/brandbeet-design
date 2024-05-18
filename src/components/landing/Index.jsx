@@ -79,7 +79,7 @@ function Landing() {
           {/* // 2nd row */}
           <div 
             className={`rowDiv ${style.rowDiv} rowDiv2 mt-[-8%] flex flex-col gap-[2vw] `}
-            >
+          >
             <div className={`imgDiv ${style.imgDiv} `}>
               <img className='w-[100%] h-[100%] object-cover' src="https://assets-global.website-files.com/64b117fb0e09e8ce5768e4fe/64ba4bd8f0d3c57c3311f16d_LAYOUT-1-p-500.jpg" alt="" />
             </div>

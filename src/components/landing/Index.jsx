@@ -31,9 +31,11 @@ function Landing() {
           </div>
           <div className={`rowDiv ${style.rowDiv}  flex flex-col gap-[3vw] `}>
             <div className={`imgDiv ${style.imgDiv} `}>
-              <img src="image1" alt="" />
+              <img className='w-[100%] h-[100%] object-cover' src="https://assets-global.website-files.com/64b117fb0e09e8ce5768e4fe/64ba4bd8106fa4f36fc39bb9_LAYOUT-17-p-1600.jpg" alt="" />
             </div>
-            <div className={`imgDiv ${style.imgDiv} `}></div>
+            <div className={`imgDiv ${style.imgDiv} `}>
+              
+            </div>
             <div className={`imgDiv ${style.imgDiv} `}></div>
             <div className={`imgDiv ${style.imgDiv} `}></div>
           </div>

@@ -8,6 +8,7 @@
     width: 100%;
     height: calc(100%/4);
     background-color: azure;
-    border-radius: 6px;
+    border-radius: 10px;
+    overflow: hidden;
    
 }

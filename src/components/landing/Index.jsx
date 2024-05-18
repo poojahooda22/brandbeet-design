@@ -26,7 +26,7 @@ function Landing() {
       scale: 0.8
     }, 'a')
     tl.to('.rowDiv2', {
-      marginTop: "-5%"
+      marginTop: "-12%"
     }, 'a')
     tl.to('.rowDiv3', {
       marginTop: "-15%"
@@ -73,7 +73,7 @@ function Landing() {
             </div>  
           </div>
           {/* // 2nd row */}
-          <div className={`rowDiv ${style.rowDiv} rowDiv2 mt-[2%] flex flex-col gap-[2vw] `}>
+          <div className={`rowDiv ${style.rowDiv} rowDiv2 mt-[-.1%] flex flex-col gap-[2vw] `}>
             <div className={`imgDiv ${style.imgDiv} `}>
               <img className='w-[100%] h-[100%] object-cover' src="https://assets-global.website-files.com/64b117fb0e09e8ce5768e4fe/64ba4bd8f0d3c57c3311f16d_LAYOUT-1-p-500.jpg" alt="" />
             </div>
@@ -88,7 +88,7 @@ function Landing() {
             </div>
           </div>
           {/* // 3rd row */}
-          <div className={`rowDiv ${style.rowDiv} rowDiv3 mt-[4%] flex flex-col gap-[2vw] `}> 
+          <div className={`rowDiv ${style.rowDiv} rowDiv3 mt-[-2%] flex flex-col gap-[2vw] `}> 
             <div className={`imgDiv ${style.imgDiv} `}>
               <img className='w-[100%] h-[100%] object-cover' src="https://assets-global.website-files.com/64b117fb0e09e8ce5768e4fe/64ba4bd8207f66103ea6893d_LAYOUT-2-p-1600.jpg" alt="" />
             </div>
@@ -103,7 +103,7 @@ function Landing() {
             </div>
           </div>
           {/* // 4th row */}
-          <div className={`rowDiv ${style.rowDiv} rowDiv4 mt-[6%] flex flex-col gap-[2vw] `}>
+          <div className={`rowDiv ${style.rowDiv} rowDiv4 mt-[-4%] flex flex-col gap-[2vw] `}>
             <div className={`imgDiv ${style.imgDiv} `}>
               <img className='w-[100%] h-[100%] object-cover' src="https://assets-global.website-files.com/64b117fb0e09e8ce5768e4fe/64ba4bd8fa4742b8e1f3b6b8_LAYOUT-8-p-1600.jpg" alt="" />
             </div>
@@ -118,7 +118,7 @@ function Landing() {
             </div>
           </div>
           {/* // 5th row */}
-          <div className={`rowDiv ${style.rowDiv} rowDiv5 mt-[8%] flex flex-col gap-[2vw] `}> 
+          <div className={`rowDiv ${style.rowDiv} rowDiv5 mt-[-6%] flex flex-col gap-[2vw] `}> 
             <div className={`imgDiv ${style.imgDiv} `}>
               <img className='w-[100%] h-[100%] object-cover' src="https://assets-global.website-files.com/64b117fb0e09e8ce5768e4fe/64ba4bd84ea0e4d87b20d630_LAYOUT-16-p-1600.jpg" alt="" />
             </div>

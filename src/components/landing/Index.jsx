@@ -42,7 +42,7 @@ function Landing() {
   return (
     <div 
       className='part1 sm:w-[100%] 
-      sm:h-[100vh] bg-black '
+      sm:h-[100vh] bg-black overflow-hidden'
     >
       <div 
         className='contentPart1 sm:w-[100%] 

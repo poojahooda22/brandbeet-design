@@ -45,7 +45,7 @@ export const data = [
         image15: "https://assets-global.website-files.com/64b117f/64be4044045bead03dffd01d_Frame%20427320116-p-1600.jpg",
     },
     {
-        image16:
+        
     }
 
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import style from './style.module.css'
-
+import { data } from '@/data'
 
 function Landing() {
   return (
@@ -18,17 +18,21 @@ function Landing() {
           className='rotateDiv w-[200vw] 
           h-[200vh] bg-black  
           flex items-center
-          justify-center gap-[3vw]'
+          justify-center gap-[2vw]'
         >
-          <div className={`rowDiv ${style.rowDiv} flex flex-col gap-[3vw] `}>
-            <div className={`imgDiv ${style.imgDiv} `}></div>
+          <div className={`rowDiv ${style.rowDiv} flex flex-col gap-[2vw] `}>
+            <div className={`imgDiv ${style.imgDiv} `}>
+              
+            </div>
             <div className={`imgDiv ${style.imgDiv} `}></div>
             <div className={`imgDiv ${style.imgDiv} `}></div>
             <div className={`imgDiv ${style.imgDiv} `}></div>
             
           </div>
           <div className={`rowDiv ${style.rowDiv}  flex flex-col gap-[3vw] `}>
-            <div className={`imgDiv ${style.imgDiv} `}></div>
+            <div className={`imgDiv ${style.imgDiv} `}>
+              <img src="image1" alt="" />
+            </div>
             <div className={`imgDiv ${style.imgDiv} `}></div>
             <div className={`imgDiv ${style.imgDiv} `}></div>
             <div className={`imgDiv ${style.imgDiv} `}></div>

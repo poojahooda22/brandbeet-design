@@ -4,7 +4,7 @@ import style from './style.module.css'
 
 const Navbar = () => {
   return (
-    <div className='fixed w-full flex items-center justify-between px-[5vw] py-[2vw] sm:px-[2.5vw] cursor-pointer sm:py-[2vw] mix-blend-difference '>
+    <div className='fixed w-full flex items-center justify-between px-[5vw] py-[2vw] sm:px-[2.5vw] cursor-pointer sm:py-[2vw] mix-blend-difference z-[2] '>
         <div className={`lftNav ${style.lftNav} h-[4vh] overflow-hidden text-[4.5vw] leading-[5vw] sm:text-[1.5vw] sm:leading-[1.8vw] tracking-tighter text-[#fff]`}>
             <h1 className={`logo ${style.logo}`}>Brandbeet</h1>
             <h1 className=''>Brandbeet</h1>

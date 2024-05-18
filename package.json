@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@gsap/react": "^2.1.1",
+    "gsap": "^3.12.5",
     "locomotive-scroll": "^5.0.0-beta.12",
     "next": "14.2.3",
     "react": "^18",

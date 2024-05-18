@@ -1,14 +1,11 @@
 .rowDiv {
     width: calc(200vw/5);
-    height: 100%;
-    
+    height: 100%;  
 }
 
 .imgDiv {
     width: 100%;
     height: calc(100%/4);
-    background-color: azure;
-    border-radius: 10px;
-    overflow: hidden;
-   
+    border-radius: 4px;
+    overflow: hidden;  
 }

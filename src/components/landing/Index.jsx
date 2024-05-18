@@ -20,31 +20,32 @@ function Landing() {
           flex items-center
           justify-center gap-[3vw]'
         >
-          <div className={`rowDiv ${style.rowDiv} space-y-8 flex flex-col gap-[3vw]`}>
+          <div className={`rowDiv ${style.rowDiv} flex flex-col gap-[3vw] `}>
+            <div className={`imgDiv ${style.imgDiv} `}></div>
+            <div className={`imgDiv ${style.imgDiv} `}></div>
+            <div className={`imgDiv ${style.imgDiv} `}></div>
+            <div className={`imgDiv ${style.imgDiv} `}></div>
+            
+          </div>
+          <div className={`rowDiv ${style.rowDiv}  flex flex-col gap-[3vw] `}>
             <div className={`imgDiv ${style.imgDiv} `}></div>
             <div className={`imgDiv ${style.imgDiv} `}></div>
             <div className={`imgDiv ${style.imgDiv} `}></div>
             <div className={`imgDiv ${style.imgDiv} `}></div>
           </div>
-          <div className={`rowDiv ${style.rowDiv}`}>
-              <div className={`imgDiv ${style.imgDiv} `}></div>
-              <div className={`imgDiv ${style.imgDiv} `}></div>
-              <div className={`imgDiv ${style.imgDiv} `}></div>
-              <div className={`imgDiv ${style.imgDiv} `}></div>
-          </div>
-          <div className={`rowDiv ${style.rowDiv}`}> 
+          <div className={`rowDiv ${style.rowDiv}  flex flex-col gap-[3vw] `}> 
             <div className={`imgDiv ${style.imgDiv} `}></div>
             <div className={`imgDiv ${style.imgDiv} `}></div>
             <div className={`imgDiv ${style.imgDiv} `}></div>
             <div className={`imgDiv ${style.imgDiv} `}></div>
           </div>
-          <div className={`rowDiv ${style.rowDiv}`}>
+          <div className={`rowDiv ${style.rowDiv}  flex flex-col gap-[3vw] `}>
             <div className={`imgDiv ${style.imgDiv} `}></div>
             <div className={`imgDiv ${style.imgDiv} `}></div>
             <div className={`imgDiv ${style.imgDiv} `}></div>
             <div className={`imgDiv ${style.imgDiv} `}></div>
           </div>
-          <div className={`rowDiv ${style.rowDiv}`}> 
+          <div className={`rowDiv ${style.rowDiv}  flex flex-col gap-[3vw] `}> 
             <div className={`imgDiv ${style.imgDiv} `}></div>
             <div className={`imgDiv ${style.imgDiv} `}></div>
             <div className={`imgDiv ${style.imgDiv} `}></div>

@@ -2,8 +2,20 @@ import React from 'react'
 import style from './style.module.css'
 import { data } from '@/data'
 import Image from 'next/image'
+import { useGSAP } from '@gsap/react'
 
 function Landing() {
+
+  useGSAP(() => {
+    const tl = gsap.timeline({
+      scrollTrigger: {
+        trigger: '.part1',
+        start: '50% 50%',
+
+        markers: true,
+      }
+    })
+  })
   return (
     <div 
       className='part1 sm:w-[100%] 

@@ -41,9 +41,11 @@ function Landing() {
               <img className='w-[100%] h-[100%] object-cover' src="https://assets-global.website-files.com/64b117fb0e09e8ce5768e4fe/64ba4bd8f0d3c57c3311f16d_LAYOUT-1-p-500.jpg" alt="" />
             </div>
             <div className={`imgDiv ${style.imgDiv} `}>
-              <img className='w-[100%] h-[100%] object-cover' src="https://assets-global.website-files.com/64b117fb0e09e8ce5768e4fe/64ba4bd8f0d3c57c3311f16d_LAYOUT-1-p-500.jpg" alt="" />
+              <img className='w-[100%] h-[100%] object-cover' src="https://assets-global.website-files.com/64b117fb0e09e8ce5768e4fe/64ba4bd9e3fee0b8d4e3a73c_LAYOUT-6-p-1600.jpg" alt="" />
             </div>
-            <div className={`imgDiv ${style.imgDiv} `}></div>
+            <div className={`imgDiv ${style.imgDiv} `}>
+              <img className='w-[100%] h-[100%] object-cover' src="https://assets-global.website-files.com/64b117fb0e09e8ce5768e4fe/64ba4bd9e3fee0b8d4e3a73c_LAYOUT-6-p-1600.jpg" alt="" />
+            </div>
             <div className={`imgDiv ${style.imgDiv} `}></div>
           </div>
           <div className={`rowDiv ${style.rowDiv}  flex flex-col gap-[3vw] `}> 

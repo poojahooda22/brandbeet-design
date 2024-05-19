@@ -15,7 +15,7 @@ function Landing() {
       scrollTrigger: {
         trigger: '.part1',
         start: '50% 50%',
-        end: '150% 50%',
+        end: '250% 50%',
         markers: true,
         scrub: 1,
         pin: true,
@@ -26,40 +26,48 @@ function Landing() {
       scale: 0.8
     }, 'a')
     tl.to('.rowDiv2', {
-      marginTop: "-20%"
+      marginTop: "1%"
     }, 'a')
     tl.to('.rowDiv3', {
-      marginTop: "-25%"
+      marginTop: "0%"
     }, 'a')
     tl.to('.rowDiv4', {
-      marginTop: "-18%"
+      marginTop: "-2%"
     }, 'a')
     tl.to('.rowDiv5', {
-      marginTop: "-20%"
+      marginTop: "-10%"
+    }, 'a')
+    tl.to('.overlayDiv h1', {
+      
+      opacity: 1,
+      delay: 0.2
+    }, 'a')
+    tl.to('.overlayDiv', {
+      backgroundColor: '#000000b4'
     }, 'a')
   })
 
 
   return (
     <div 
-      className='part1 sm:w-[100%] 
-      sm:h-[100vh] bg-black overflow-hidden'
+      className='part1 w-[100%] h-[100vh] md:w-[100%] 
+      md:h-[100vh] bg-black overflow-hidden'
     >
       <div 
-        className='contentPart1 sm:w-[100%] 
-        sm:h-[100vh] 
-        flex items-start
+        className='contentPart1 w-[100%] h-[100vh] md:w-[100%] 
+        md:h-[100vh] 
+        flex items-center
         justify-center'
       >
         <div 
-          className='rotateDiv w-[200vw] 
-          h-[200vh] bg-black  scale-100
-          flex items-center
-          justify-center gap-[2vw]'
+          className='rotateDiv w-[200vw] h-[200vh] md:w-[200vw] 
+          md:h-[200vh] bg-black  scale-100
+          flex items-start
+          justify-center gap-[6vw] md:gap-[2vw]'
         >
           {/* // 1st row */}
           <div 
-            className={`rowDiv ${style.rowDiv} rowDiv1 flex flex-col gap-[2vw] `}
+            className={`rowDiv ${style.rowDiv} rowDiv1 flex flex-col  gap-[6vw] md:gap-[2vw] `}
           >
             <div 
               className={`imgDiv ${style.imgDiv} `}
@@ -78,7 +86,7 @@ function Landing() {
           </div>
           {/* // 2nd row */}
           <div 
-            className={`rowDiv ${style.rowDiv} rowDiv2 mt-[-8%] flex flex-col gap-[2vw] `}
+            className={`rowDiv ${style.rowDiv} rowDiv2 sm:mt-[8%] flex flex-col  gap-[6vw] md:gap-[2vw] `}
           >
             <div className={`imgDiv ${style.imgDiv} `}>
               <img className='w-[100%] h-[100%] object-cover' src="https://assets-global.website-files.com/64b117fb0e09e8ce5768e4fe/64ba4bd8f0d3c57c3311f16d_LAYOUT-1-p-500.jpg" alt="" />
@@ -95,7 +103,7 @@ function Landing() {
           </div>
           {/* // 3rd row */}
           <div 
-            className={`rowDiv ${style.rowDiv} rowDiv3 mt-[-12%] flex flex-col gap-[2vw] `}
+            className={`rowDiv ${style.rowDiv} rowDiv3 sm:mt-[10%] flex flex-col  gap-[6vw] md:gap-[2vw] `}
           > 
             <div className={`imgDiv ${style.imgDiv} `}>
               <img className='w-[100%] h-[100%] object-cover' src="https://assets-global.website-files.com/64b117fb0e09e8ce5768e4fe/64ba4bd8207f66103ea6893d_LAYOUT-2-p-1600.jpg" alt="" />
@@ -111,7 +119,7 @@ function Landing() {
             </div>
           </div>
           {/* // 4th row */}
-          <div className={`rowDiv ${style.rowDiv} rowDiv4 mt-[-4%] flex flex-col gap-[2vw] `}>
+          <div className={`rowDiv ${style.rowDiv} rowDiv4 sm:mt-[8%] flex flex-col  gap-[6vw] md:gap-[2vw] `}>
             <div className={`imgDiv ${style.imgDiv} `}>
               <img className='w-[100%] h-[100%] object-cover' src="https://assets-global.website-files.com/64b117fb0e09e8ce5768e4fe/64ba4bd8fa4742b8e1f3b6b8_LAYOUT-8-p-1600.jpg" alt="" />
             </div>
@@ -126,7 +134,7 @@ function Landing() {
             </div>
           </div>
           {/* // 5th row */}
-          <div className={`rowDiv ${style.rowDiv} rowDiv5 mt-[-6%] flex flex-col gap-[2vw] `}> 
+          <div className={`rowDiv ${style.rowDiv} rowDiv5 sm:mt-[6%] flex flex-col gap-[6vw] md:gap-[2vw]`}> 
             <div className={`imgDiv ${style.imgDiv} `}>
               <img className='w-[100%] h-[100%] object-cover' src="https://assets-global.website-files.com/64b117fb0e09e8ce5768e4fe/64ba4bd84ea0e4d87b20d630_LAYOUT-16-p-1600.jpg" alt="" />
             </div>
@@ -140,6 +148,11 @@ function Landing() {
               <img className='w-[100%] h-[100%] object-cover' src="https://assets-global.website-files.com/64b117fb0e09e8ce5768e4fe/64be4044e5242bb154e2c347_HF%204-p-1600.jpg" alt="" />
             </div>
           </div>
+        </div>
+
+        <div className='overlayDiv absolute flex items-center 
+        text-[#fff] text-[11vw] tracking-tighter leading-[10vw] overflow-hidden bg-transparent justify-center w-[100%] h-[100vh] '>
+          <h1 className='opacity-0'>Brandbeet</h1>
         </div>
       </div>
     </div>

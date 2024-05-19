@@ -153,6 +153,9 @@ function Landing() {
         <div className='overlayDiv absolute flex items-center 
         text-[#fff] text-[11vw] tracking-tighter leading-[10vw] overflow-hidden bg-transparent justify-center w-[100%] h-[100vh] '>
           <h1 className='opacity-0'>Brandbeet</h1>
+          <div>
+            
+          </div>
         </div>
       </div>
     </div>

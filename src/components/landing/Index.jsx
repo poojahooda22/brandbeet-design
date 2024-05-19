@@ -56,7 +56,7 @@ function Landing() {
       <div 
         className='contentPart1 w-[100%] h-[100vh] md:w-[100%] 
         md:h-[100vh] 
-        flex items-center
+        flex items-center relative
         justify-center'
       >
         <div 
@@ -151,10 +151,13 @@ function Landing() {
         </div>
 
         <div className='overlayDiv absolute flex items-center 
-        text-[#fff] text-[11vw] tracking-tighter leading-[10vw] overflow-hidden bg-transparent justify-center w-[100%] h-[100vh] '>
-          <h1 className='opacity-0'>Brandbeet</h1>
-          <div>
-            
+        text-[#fff] overflow-hidden bg-transparent justify-center w-[100%] h-[100vh] '>
+          <h1 className='opacity-0  tracking-tighter leading-[10vw]  text-[11vw]'>Brandbeet</h1>
+          <div className='scrollDown absolute bottom-10 right-1/2 flex flex-col items-center gap-1'>
+            <h3 className='text-[.6vw] uppercase text-center'>scroll down</h3>
+            <div className='scrolling w-[4vw] bg-zinc-500 h-[.2vw] relative rounded-md'>
+              <div className='scrollingP absolute top-0  w-[1vw] bg-white h-[.2vw] rounded-md'></div>
+            </div>
           </div>
         </div>
       </div>

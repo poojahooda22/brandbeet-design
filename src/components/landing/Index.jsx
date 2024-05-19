@@ -37,8 +37,7 @@ function Landing() {
     tl.to('.rowDiv5', {
       marginTop: "-10%"
     }, 'a')
-    tl.to('.overlayDiv h1', {
-      
+    tl.to('.overlayDiv h1', { 
       opacity: 1,
       delay: 0.2
     }, 'a')
@@ -153,10 +152,10 @@ function Landing() {
         <div className='overlayDiv absolute flex items-center 
         text-[#fff] overflow-hidden bg-transparent justify-center w-[100%] h-[100vh] '>
           <h1 className='opacity-0  tracking-tighter leading-[10vw]  text-[11vw]'>Brandbeet</h1>
-          <div className='scrollDown absolute bottom-10 right-1/2 flex flex-col items-center gap-1'>
-            <h3 className='text-[.6vw] uppercase text-center'>scroll down</h3>
-            <div className='scrolling w-[4vw] bg-zinc-500 h-[.2vw] relative rounded-md'>
-              <div className='scrollingP absolute top-0  w-[1vw] bg-white h-[.2vw] rounded-md'></div>
+          <div className='scrollDown absolute bottom-10 right-1/2 flex flex-col items-center gap-2'>
+            <h3 className='text-[.7vw] uppercase text-center'>scroll down</h3>
+            <div className='scrollingP w-[5vw] bg-zinc-500 h-[.1vw] relative rounded-md'>
+              <div className='scrolling absolute top-0  w-[0vw] bg-white h-[.1vw] rounded-md'></div>
             </div>
           </div>
         </div>

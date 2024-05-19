@@ -3,6 +3,7 @@
 import { useEffect} from 'react';
 import Navbar from "@/components/navbar/Index";
 import Landing from '@/components/landing/Index';
+import About from '@/components/about/Index';
 
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
     <main className="">
       <Navbar/>
       <Landing/>
+      <About/>
     </main>
   );
 }

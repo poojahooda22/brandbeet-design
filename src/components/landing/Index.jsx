@@ -16,7 +16,6 @@ function Landing() {
         trigger: '.part1',
         start: '50% 50%',
         end: '250% 50%',
-        markers: true,
         scrub: 1,
         pin: true,
       }

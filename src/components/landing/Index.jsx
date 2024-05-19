@@ -44,6 +44,9 @@ function Landing() {
     tl.to('.overlayDiv', {
       backgroundColor: '#000000b4'
     }, 'a')
+    tl.to('.scrolling', {
+      width: '100%',
+    }, 'a')
   })
 
 
@@ -85,7 +88,7 @@ function Landing() {
           </div>
           {/* // 2nd row */}
           <div 
-            className={`rowDiv ${style.rowDiv} rowDiv2 sm:mt-[8%] flex flex-col  gap-[6vw] md:gap-[2vw] `}
+            className={`rowDiv ${style.rowDiv} rowDiv2 mt-[-4%] sm:mt-[8%] flex flex-col  gap-[6vw] md:gap-[2vw] `}
           >
             <div className={`imgDiv ${style.imgDiv} `}>
               <img className='w-[100%] h-[100%] object-cover' src="https://assets-global.website-files.com/64b117fb0e09e8ce5768e4fe/64ba4bd8f0d3c57c3311f16d_LAYOUT-1-p-500.jpg" alt="" />
@@ -102,7 +105,7 @@ function Landing() {
           </div>
           {/* // 3rd row */}
           <div 
-            className={`rowDiv ${style.rowDiv} rowDiv3 sm:mt-[10%] flex flex-col  gap-[6vw] md:gap-[2vw] `}
+            className={`rowDiv ${style.rowDiv} rowDiv3 mt-[-8%] sm:mt-[10%] flex flex-col  gap-[6vw] md:gap-[2vw] `}
           > 
             <div className={`imgDiv ${style.imgDiv} `}>
               <img className='w-[100%] h-[100%] object-cover' src="https://assets-global.website-files.com/64b117fb0e09e8ce5768e4fe/64ba4bd8207f66103ea6893d_LAYOUT-2-p-1600.jpg" alt="" />
@@ -118,7 +121,7 @@ function Landing() {
             </div>
           </div>
           {/* // 4th row */}
-          <div className={`rowDiv ${style.rowDiv} rowDiv4 sm:mt-[8%] flex flex-col  gap-[6vw] md:gap-[2vw] `}>
+          <div className={`rowDiv ${style.rowDiv} rowDiv4 mt-[-10%] sm:mt-[8%] flex flex-col  gap-[6vw] md:gap-[2vw] `}>
             <div className={`imgDiv ${style.imgDiv} `}>
               <img className='w-[100%] h-[100%] object-cover' src="https://assets-global.website-files.com/64b117fb0e09e8ce5768e4fe/64ba4bd8fa4742b8e1f3b6b8_LAYOUT-8-p-1600.jpg" alt="" />
             </div>
@@ -133,7 +136,7 @@ function Landing() {
             </div>
           </div>
           {/* // 5th row */}
-          <div className={`rowDiv ${style.rowDiv} rowDiv5 sm:mt-[6%] flex flex-col gap-[6vw] md:gap-[2vw]`}> 
+          <div className={`rowDiv ${style.rowDiv} rowDiv5 mt-[-14%] sm:mt-[6%] flex flex-col gap-[6vw] md:gap-[2vw]`}> 
             <div className={`imgDiv ${style.imgDiv} `}>
               <img className='w-[100%] h-[100%] object-cover' src="https://assets-global.website-files.com/64b117fb0e09e8ce5768e4fe/64ba4bd84ea0e4d87b20d630_LAYOUT-16-p-1600.jpg" alt="" />
             </div>
@@ -151,11 +154,11 @@ function Landing() {
 
         <div className='overlayDiv absolute flex items-center 
         text-[#fff] overflow-hidden bg-transparent justify-center w-[100%] h-[100vh] '>
-          <h1 className='opacity-0  tracking-tighter leading-[10vw]  text-[11vw]'>Brandbeet</h1>
-          <div className='scrollDown absolute bottom-10 right-1/2 flex flex-col items-center gap-2'>
-            <h3 className='text-[.7vw] uppercase text-center'>scroll down</h3>
-            <div className='scrollingP w-[5vw] bg-zinc-500 h-[.1vw] relative rounded-md'>
-              <div className='scrolling absolute top-0  w-[0vw] bg-white h-[.1vw] rounded-md'></div>
+          <h1 className='opacity-0  tracking-tighter leading-[10vw] text-[12vw] sm:text-[11vw]'>Brandbeet</h1>
+          <div className='scrollDown absolute bottom-12 sm:bottom-10 sm:left-1/2 flex flex-col items-center gap-1'>
+            <h3 className='text-[2.3vw] sm:text-[.6vw] uppercase text-center'>scroll down</h3>
+            <div className='scrollingP w-[16vw] sm:w-[5vw] bg-zinc-500 h-[.3vw] sm:h-[.1vw] relative rounded-md'>
+              <div className='scrolling absolute top-0 w-[0vw] sm:w-[0vw] bg-white  h-[.3vw] sm:h-[.1vw] rounded-md'></div>
             </div>
           </div>
         </div>

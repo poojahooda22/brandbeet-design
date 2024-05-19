@@ -9,3 +9,10 @@
     border-radius: 4px;
     overflow: hidden;  
 }
+
+@media screen and (min-width: 768px) {
+    .rowDiv {
+        width: calc(200vw/5);
+        height: 100%;  
+    }
+}

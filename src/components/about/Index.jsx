@@ -40,8 +40,8 @@ function About() {
         })
         gsap.to('.textAreaHover2 h2', {
             width: '100%',
-            delay: 1,
-            duration: 1,
+            delay: 2,
+            duration: 2,
             scrollTrigger: {
                 trigger: '.content2',
                 start: '30% 50%',

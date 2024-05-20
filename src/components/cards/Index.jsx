@@ -22,31 +22,31 @@ const Cards = () => {
               pin: true,
             }
         })
-        tl.to(contentRefs.current[1], {
-            marginTop: "-50%",
+        tl.to('.content1', {
+            marginTop: "-25%",
             opacity: 1,
         }, 'sct1')
-        tl.to(contentRefs.current[2], {        
+        tl.to('.content2', {        
             opacity: 1,
         }, 'sct2')
-        tl.to(contentRefs.current[1], {
+        tl.to('.content1', {
             marginTop: "-100%",
             opacity: 0,
         }, 'sct2')
-        tl.to(contentRefs.current[3], {        
-            opacity: 1,
-        }, 'sct3')
-        tl.to(contentRefs.current[1], {
-            marginTop: "-150%",
-            opacity: 0,
-        }, 'sct3')
-        tl.to(contentRefs.current[4], {        
-            opacity: 1,
-        }, 'sct4')
-        tl.to(contentRefs.current[1], {
-            marginTop: "-200%",
-            opacity: 0,
-        }, 'sct4')
+        // tl.to('.content3', {        
+        //     opacity: 1,
+        // }, 'sct3')
+        // tl.to('.content1', {
+        //     marginTop: "-200%",
+        //     opacity: 0,
+        // }, 'sct3')
+        // tl.to('.content4', {        
+        //     opacity: 1,
+        // }, 'sct4')
+        // tl.to('.content1', {
+        //     marginTop: "-200%",
+        //     opacity: 0,
+        // }, 'sct4')
 
     })
 
@@ -65,7 +65,7 @@ const Cards = () => {
                 <Image src='https://assets-global.website-files.com/64b117fb0e09e8ce5768e4fe/64b7d30aa9b24259d10be24d_symbol.svg' width={32} height={10} alt='line' className='w-[4vw] sm:w-[2vw]'/>
             </div>
         </div>
-        <div className='w-full sm:w-2/5 h-[200%]  rghtDiv flex flex-col gap-[18vw] sm:gap-[6vw] mt-[24vw] sm:mt-[32%]'> 
+        <div className='w-full sm:w-2/5 h-[200%]  rghtDiv flex flex-col gap-[18vw] sm:gap-[7vw] mt-[24vw] sm:mt-[32%]'> 
             <div className={`content1 flex flex-col gap-[4vw] sm:gap-[2vw] opacity-0 `}>
                 <h4 className='text-[7vw] sm:text-[2vw] tracking-tighter'>Growth and ROI</h4>
                 <p className='text-[4vw] sm:text-[1.2vw] sm:leading-[2vw] text-third'>Expect a team that looks at problems holistically. A team that designs solutions directly contributing to your revenue growth and business success - not just pretty pictures.</p>

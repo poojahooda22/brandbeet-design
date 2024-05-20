@@ -8,12 +8,6 @@ gsap.registerPlugin(ScrollTrigger)
 
 const Cards = () => {
 
-    const data = [
-
-
-
-
-    ]
 
     const contentRefs = useRef([]);
 

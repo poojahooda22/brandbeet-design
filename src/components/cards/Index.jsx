@@ -58,7 +58,7 @@ const Cards = () => {
             opacity: 0,
         }, 'sct4')
         tl.to('.content1', {
-            marginTop: "-200%",
+            marginTop: "-190%",
         }, 'sct4')
         tl.to('.circle', {
             rotate: '720deg',

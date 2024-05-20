@@ -10,7 +10,7 @@ const Cards = () => {
 
     const data = [
         {
-            title: "Growth and ROI",
+            
             des: ""
         },
 

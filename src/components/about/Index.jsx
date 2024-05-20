@@ -51,11 +51,11 @@ function About() {
         })
     })
   return (
-    <div className='part2 w-[100%] h-[100vh] bg-[#fff] '>
+    <div className='part2 w-[100%] bg-secondary '>
         
         {/* //rounded div */}
         <div className='hidden sm:flex roundedDivWrapper relative w-[100%] h-[100px]  overflow-hidden mt-[-5vw] '>
-            <div className='roundedDiv w-[150%] h-[750%] rounded-[50%] bg-[#fff]  absolute left-1/2 -translate-x-1/2 '></div>
+            <div className='roundedDiv w-[150%] h-[750%] rounded-[50%] bg-secondary  absolute left-1/2 -translate-x-1/2 '></div>
         </div>
         <div className='content2 w-[100%] h-[100vh] relative flex items-center px-[5vw] sm:px-[2.5vw] overflow-hidden'>
             <div className='textArea absolute left-[5%] sm:left-[2%] opacity-[.2] text-[10vw] leading-[10vw]  sm:text-[7vw] tracking-tighter sm:whitespace-nowrap '>
@@ -73,21 +73,21 @@ function About() {
         </div>
 
         <div className=' px-[5vw] sm:px-[2.5vw] sm:flex items-center justify-between pb-[12vw] sm:pb-[4vw] '>
-            <h3 className='text-[4vw] sm:text-[1.2vw] text-[#858588] tracking-tight mb-[4vw] sm:mb-0'>Unlock profit with monthly design sprints.</h3>
+            <h3 className='text-[4vw] sm:text-[1.2vw] text-textComplimentary tracking-tight mb-[4vw] sm:mb-0'>Unlock profit with monthly design sprints.</h3>
             <div className='cta flex items-center justify-between sm:gap-[1vw] cursor-pointer'>
-                <div className='bg-black px-[10vw] py-[6vw] sm:px-[2.2vw] sm:py-[1.2vw] rounded-full'>
+                <div className='bg-primary px-[10vw] py-[6vw] sm:px-[2.2vw] sm:py-[1.2vw] rounded-full'>
                     <div 
                         className={`ctaBook ${style.ctaBook} text-[4vw] sm:text-[1vw] tracking-tight
-                         text-white h-[5.2vw] sm:h-[1.2vw] whitespace-nowrap overflow-hidden`}
+                         text-secondary h-[5.2vw] sm:h-[1.2vw] whitespace-nowrap overflow-hidden`}
                     >
                         <h3 className=''>Book a demo</h3>
                         <h3 className=''>Book a demo</h3>
                     </div>
                 </div>
-                <div className='bg-[#e1e1e1] px-[10vw] py-[6vw] sm:px-[2.2vw] sm:py-[1.2vw] rounded-full'>
+                <div className='bg-gray px-[10vw] py-[6vw] sm:px-[2.2vw] sm:py-[1.2vw] rounded-full'>
                     <div 
                         className={`ctaBook ${style.ctaBook} text-[4vw] sm:text-[1vw] tracking-tight
-                        text-[#111] h-[5.2vw] sm:h-[1.3vw] whitespace-nowrap overflow-hidden`}
+                        text-primary h-[5.2vw] sm:h-[1.3vw] whitespace-nowrap overflow-hidden`}
                     >
                          <h3 className=''>View Pricing</h3>
                         <h3 className=''>View Pricing</h3>
@@ -96,21 +96,21 @@ function About() {
             </div>
         </div>
 
-        <div className='bg-black w-full h-[18vh] flex items-center justify-evenly'>
+        <div className='bg-primary w-full h-[16vh] sm:h-[18vh] flex items-center justify-center gap-[6vw] sm:justify-evenly'>
             <div>
-                <Image src={apple} width={42} height={42} alt='apple' />
+                <Image src={apple}  className='w-[7vw] sm:w-[3vw]' alt='apple' />
             </div>
             <div>
-                <Image src={ibm} width={100} height={100} alt='apple' />
+                <Image src={ibm} className=' w-[12vw] sm:w-[6vw]' alt='apple' />
             </div>
             <div className=''>
-                <Image src={dell} width={100} height={100} alt='apple' />
+                <Image src={dell}  className=' w-[12vw] sm:w-[6vw]' alt='apple' />
             </div>
             <div>
-                <Image src={hp} width={42} height={42} alt='apple' />
+                <Image src={hp} className=' w-[8vw] sm:w-[3vw]' alt='apple' />
             </div>
             <div>
-                <Image src={oral} width={100} height={100} alt='apple' />
+                <Image src={oral} className=' w-[14vw] sm:w-[6vw]' alt='apple' />
             </div>
         </div>
         

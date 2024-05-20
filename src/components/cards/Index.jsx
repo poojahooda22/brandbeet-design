@@ -1,5 +1,10 @@
 import React from 'react';
 import Image from 'next/image';
+import { useGSAP } from '@gsap/react';
+import { gsap } from 'gsap'
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger)
 
 const Cards = () => {
 
@@ -27,9 +32,22 @@ const Cards = () => {
 
     ]
 
+    useGSAP(() => {
+        const tl = gsap.timeline({
+            scrollTrigger: {
+              trigger: '.part3',
+              start: '50% 50%',
+              end: '200% 50%',
+              scrub: 1,
+              markers: true,
+              pin: true,
+            }
+        })
+    })
+
   return (
-    <div className='part3 w-full h-[100vh] bg-secondary px-[5vw] sm:px-[2.5vw] relative flex flex-col mt-[30vw] sm:mt-0 sm:flex sm:flex-row sm:justify-between'>
-        <div className='leftDiv w-full sm:w-1/2 sm:h-[100%]  flex flex-col gap-[6vw] sm:gap-0 sm:justify-center'>
+    <div className='part3 w-full h-[100vh] bg-secondary px-[5vw] sm:px-[2.5vw] relative flex flex-col pt-[4vw] sm:mt-0 sm:flex sm:flex-row sm:justify-between'>
+        <div className='leftDiv  w-full sm:w-1/2 sm:h-[100%] py-[16vw] sm:py-0 flex flex-col gap-[6vw] sm:gap-0 sm:justify-center'>
            <div className='flex gap-[2vw] sm:gap-0 sm:flex-col'>
                 <div className='text-[9vw] sm:text-[8vw] tracking-tighter leading-[9vw]'>
                     <h2>Expected</h2>
@@ -42,7 +60,7 @@ const Cards = () => {
                 <Image src='https://assets-global.website-files.com/64b117fb0e09e8ce5768e4fe/64b7d30aa9b24259d10be24d_symbol.svg' width={32} height={10} alt='line' className='w-[4vw] sm:w-[2vw]'/>
             </div>
         </div>
-        <div className='w-full sm:w-2/5  rghtDiv flex flex-col gap-[18vw] sm:gap-[6vw] mt-[16vw] sm:mt-[6vw]'>
+        <div className='w-full sm:w-2/5 h-[200%]  rghtDiv flex flex-col gap-[18vw] sm:gap-[6vw] mt-[24vw] sm:mt-[32%]'>
             {data.map((item, index) => {
                 return (
                     <div key={index} className='content flex flex-col gap-[4vw] sm:gap-[2vw] '>

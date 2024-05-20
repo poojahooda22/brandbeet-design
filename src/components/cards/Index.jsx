@@ -19,7 +19,7 @@ const Cards = () => {
         },
         {
             title: "",
-            des: "Expect no extra charge if things need changing. It’s all about you. It’ll be iterated on until you are 100% happy. Once done expect design you and your mom can be proud of."
+            des: ""
         },
 
         {

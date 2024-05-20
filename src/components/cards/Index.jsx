@@ -94,7 +94,7 @@ const Cards = () => {
 
   return (
     <div className='part3 w-full h-[100vh] bg-secondary px-[5vw] sm:px-[2.5vw] relative flex flex-col pt-[4vw] sm:mt-0 sm:flex sm:flex-row sm:justify-between'>
-        <div className='leftDiv  w-full sm:w-1/2 sm:h-[100%] py-[16vw] sm:py-0 flex flex-col gap-[6vw] sm:gap-0 sm:justify-center'>
+        <div className='leftDiv sm:w-1/2 sm:h-[100%] py-[16vw] sm:py-0 flex flex-col gap-[6vw] sm:gap-0 sm:justify-center'>
            <div className='flex gap-[2vw] sm:gap-0 sm:flex-col'>
                 <div className='text-[9vw] sm:text-[8vw] tracking-tighter leading-[9vw]'>
                     <h2>Expected</h2>

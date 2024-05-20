@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useRef, useEffect} from 'react';
 import Image from 'next/image';
 import { useGSAP } from '@gsap/react';
 import { gsap } from 'gsap'
@@ -11,7 +11,7 @@ const Cards = () => {
     const data = [
         {
             title: "Growth and ROI",
-            des: "Expect a team that looks at problems holistically. A team that designs solutions directly contributing to your revenue growth and business success - not just pretty pictures."
+            des: ""
         },
         {
             title: "Top tier designers",
@@ -32,6 +32,8 @@ const Cards = () => {
 
     ]
 
+    const contentRefs = useRef([]);
+
     useGSAP(() => {
         const tl = gsap.timeline({
             scrollTrigger: {
@@ -43,6 +45,38 @@ const Cards = () => {
               pin: true,
             }
         })
+        tl.to(contentRefs.current[1], {
+            marginTop: "-50%",
+            opacity: 1,
+        }, 'sct1')
+        tl.to(contentRefs.current[2], {        
+            opacity: 1,
+        }, 'sct2')
+        tl.to(contentRefs.current[1], {
+            marginTop: "-100%",
+            opacity: 0,
+        }, 'sct2')
+        tl.to(contentRefs.current[3], {        
+            opacity: 1,
+        }, 'sct3')
+        tl.to(contentRefs.current[1], {
+            marginTop: "-150%",
+            opacity: 0,
+        }, 'sct3')
+        tl.to(contentRefs.current[4], {        
+            opacity: 1,
+        }, 'sct4')
+        tl.to(contentRefs.current[1], {
+            marginTop: "-200%",
+            opacity: 0,
+        }, 'sct4')
+        tl.to(contentRefs.current[5], {        
+            opacity: 1,
+        }, 'sct5')
+        tl.to(contentRefs.current[1], {
+            marginTop: "-250%",
+            opacity: 0,
+        }, 'sct5')
     })
 
   return (
@@ -60,15 +94,24 @@ const Cards = () => {
                 <Image src='https://assets-global.website-files.com/64b117fb0e09e8ce5768e4fe/64b7d30aa9b24259d10be24d_symbol.svg' width={32} height={10} alt='line' className='w-[4vw] sm:w-[2vw]'/>
             </div>
         </div>
-        <div className='w-full sm:w-2/5 h-[200%]  rghtDiv flex flex-col gap-[18vw] sm:gap-[6vw] mt-[24vw] sm:mt-[32%]'>
-            {data.map((item, index) => {
-                return (
-                    <div key={index} className={`content flex flex-col gap-[4vw] sm:gap-[2vw] `}>
-                        <h4 className='text-[7vw] sm:text-[2vw] tracking-tighter'>{item.title}</h4>
-                        <p className='text-[4vw] sm:text-[1.2vw] sm:leading-[2vw] text-third'>{item.des}</p>
-                    </div>
-                )
-            })}
+        <div className='w-full sm:w-2/5 h-[200%]  rghtDiv flex flex-col gap-[18vw] sm:gap-[6vw] mt-[24vw] sm:mt-[32%]'> 
+            <div className={`content flex flex-col gap-[4vw] sm:gap-[2vw] opacity-1 `}>
+                <h4 className='text-[7vw] sm:text-[2vw] tracking-tighter'>Growth and ROI</h4>
+                <p className='text-[4vw] sm:text-[1.2vw] sm:leading-[2vw] text-third'>Expect a team that looks at problems holistically. A team that designs solutions directly contributing to your revenue growth and business success - not just pretty pictures.</p>
+            </div>
+            <div className={`content flex flex-col gap-[4vw] sm:gap-[2vw] opacity-1 `}>
+                <h4 className='text-[7vw] sm:text-[2vw] tracking-tighter'>Growth and ROI</h4>
+                <p className='text-[4vw] sm:text-[1.2vw] sm:leading-[2vw] text-third'>Expect a team that looks at problems holistically. A team that designs solutions directly contributing to your revenue growth and business success - not just pretty pictures.</p>
+            </div>
+            <div className={`content flex flex-col gap-[4vw] sm:gap-[2vw] opacity-1 `}>
+                <h4 className='text-[7vw] sm:text-[2vw] tracking-tighter'>Growth and ROI</h4>
+                <p className='text-[4vw] sm:text-[1.2vw] sm:leading-[2vw] text-third'>Expect a team that looks at problems holistically. A team that designs solutions directly contributing to your revenue growth and business success - not just pretty pictures.</p>
+            </div>
+            <div className={`content flex flex-col gap-[4vw] sm:gap-[2vw] opacity-1 `}>
+                <h4 className='text-[7vw] sm:text-[2vw] tracking-tighter'>Growth and ROI</h4>
+                <p className='text-[4vw] sm:text-[1.2vw] sm:leading-[2vw] text-third'>Expect a team that looks at problems holistically. A team that designs solutions directly contributing to your revenue growth and business success - not just pretty pictures.</p>
+            </div>
+
         </div>
     </div>
   )

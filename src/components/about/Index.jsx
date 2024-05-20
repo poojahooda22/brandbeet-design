@@ -68,8 +68,8 @@ function About() {
         <div className=' px-[5vw] sm:px-[2.5vw] flex items-center justify-between pb-[4vw]'>
             <h3 className='text-[1.2vw] text-[#858588] tracking-tight'>Unlock profit with monthly design sprints.</h3>
             <div className='cta flex items-center gap-[2vw]'>
-                <div className={`ctaBook ${style.ctaBook} bg-black text-white w
-                h-[3vw] whitespace-nowrap `}>
+                <div className={`ctaBook ${style.ctaBook} flex flex-col items-center justify-center
+                 bg-black text-white h-[1vw] py-[.1vw] whitespace-nowrap `}>
                     <h3 className=''>Book a demo</h3>
                     <h3 className=''>Book a demo</h3>
                 </div>

@@ -18,7 +18,6 @@ const Cards = () => {
               start: '50% 50%',
               end: '300% 50%',
               scrub: 1,
-              markers: true,
               pin: true,
             }
         })

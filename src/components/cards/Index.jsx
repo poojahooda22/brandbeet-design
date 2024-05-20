@@ -16,7 +16,7 @@ const Cards = () => {
             scrollTrigger: {
               trigger: '.part3',
               start: '50% 50%',
-              end: '200% 50%',
+              end: '250% 50%',
               scrub: 1,
               markers: true,
               pin: true,
@@ -63,6 +63,12 @@ const Cards = () => {
         tl.to('.circle', {
             rotate: '720deg',
         }, 'sct4')
+        tl.to('.content4', {        
+            opacity: 0,
+        }, 'sct5')
+        tl.to('.circle', {
+            rotate: '745deg',
+        }, 'sct5')
     })
 
   return (

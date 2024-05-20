@@ -37,14 +37,17 @@ const Cards = () => {
             opacity: 0,
         }, 'sct2')
         tl.to('.circle', {
-            rotate: '180deg',
+            rotate: '360deg',
         }, 'sct2')
         tl.to('.content3', {        
             opacity: 1,
         }, 'sct3')
         tl.to('.content1', {
-            marginTop: "-150%",
+            marginTop: "-200%",
             opacity: 0,
+        }, 'sct3')
+        tl.to('.circle', {
+            rotate: '540deg',
         }, 'sct3')
         // tl.to('.content4', {        
         //     opacity: 1,

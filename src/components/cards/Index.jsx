@@ -33,13 +33,13 @@ const Cards = () => {
             marginTop: "-100%",
             opacity: 0,
         }, 'sct2')
-        // tl.to('.content3', {        
-        //     opacity: 1,
-        // }, 'sct3')
-        // tl.to('.content1', {
-        //     marginTop: "-200%",
-        //     opacity: 0,
-        // }, 'sct3')
+        tl.to('.content3', {        
+            opacity: 1,
+        }, 'sct3')
+        tl.to('.content1', {
+            marginTop: "-200%",
+            opacity: 0,
+        }, 'sct3')
         // tl.to('.content4', {        
         //     opacity: 1,
         // }, 'sct4')

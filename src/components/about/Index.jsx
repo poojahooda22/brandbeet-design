@@ -4,6 +4,10 @@ import { gsap } from 'gsap'
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import style from './style.module.css'
 import apple from '../../../public/images/apple.svg'
+import dell from '../../../public/images/dell.svg'
+import hp from '../../../public/images/hp.svg'
+import ibm from '../../../public/images/ibm.svg'
+import oral from '../../../public/images/oral.svg'
 import Image from 'next/image';
 
 gsap.registerPlugin(ScrollTrigger)
@@ -26,6 +30,7 @@ function About() {
 
         gsap.to('.textAreaHover h2', {
             width: '100%',
+            duration: 1,
             scrollTrigger: {
                 trigger: '.content2',
                 start: '50% 80%',
@@ -36,6 +41,7 @@ function About() {
         gsap.to('.textAreaHover2 h2', {
             width: '100%',
             delay: 1,
+            duration: 1,
             scrollTrigger: {
                 trigger: '.content2',
                 start: '30% 50%',
@@ -90,21 +96,21 @@ function About() {
             </div>
         </div>
 
-        <div className='bg-black w-full h-[12vh] flex items-center justify-center gap-[10vw]'>
+        <div className='bg-black w-full h-[18vh] flex items-center justify-evenly'>
             <div>
-                <Image src={apple} width={36} height={36} alt='apple' />
+                <Image src={apple} width={42} height={42} alt='apple' />
             </div>
             <div>
-                <Image src={apple} width={36} height={36} alt='apple' />
+                <Image src={ibm} width={100} height={100} alt='apple' />
+            </div>
+            <div className=''>
+                <Image src={dell} width={100} height={100} alt='apple' />
             </div>
             <div>
-                <Image src={apple} width={36} height={36} alt='apple' />
+                <Image src={hp} width={42} height={42} alt='apple' />
             </div>
             <div>
-                <Image src={apple} width={36} height={36} alt='apple' />
-            </div>
-            <div>
-                <Image src={apple} width={36} height={36} alt='apple' />
+                <Image src={oral} width={100} height={100} alt='apple' />
             </div>
         </div>
         

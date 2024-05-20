@@ -23,7 +23,7 @@ const Cards = () => {
         },
 
         {
-            title: "",
+
 
         },
 

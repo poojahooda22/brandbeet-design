@@ -13,9 +13,7 @@ const Cards = () => {
             title: "Growth and ROI",
             des: ""
         },
-        {
 
-        },
 
 
     ]

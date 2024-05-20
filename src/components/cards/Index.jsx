@@ -23,7 +23,7 @@ const Cards = () => {
             }
         })
         tl.to('.content1', {
-            marginTop: "-25%",
+            marginTop: "-50%",
             opacity: 1,
         }, 'sct1')
         tl.to('.circle', {
@@ -42,23 +42,15 @@ const Cards = () => {
         tl.to('.content3', {        
             opacity: 1,
         }, 'sct3')
+        tl.to('.content2', {
+            opacity: 0,
+        }, 'sct3')
         tl.to('.content1', {
-            marginTop: "-200%", 
+            marginTop: "-145%",
         }, 'sct3')
         tl.to('.circle', {
             rotate: '540deg',
         }, 'sct3')
-        tl.to('.content4', {        
-            opacity: 1,
-        }, 'sct4')
-        tl.to('.content1', {
-            marginTop: "-270%",
-            opacity: 0,
-        }, 'sct4')
-        tl.to('.circle', {
-            rotate: '760deg',
-        }, 'sct4')
-
     })
 
   return (

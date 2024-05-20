@@ -16,7 +16,7 @@ const Cards = () => {
             scrollTrigger: {
               trigger: '.part3',
               start: '50% 50%',
-              end: '250% 50%',
+              end: '300% 50%',
               scrub: 1,
               markers: true,
               pin: true,
@@ -72,6 +72,18 @@ const Cards = () => {
         tl.to('.circle', {
             rotate: '900deg',
         }, 'sct5')
+        tl.to('.outerCircle', {
+            marginLeft: '20%',
+        }, 'sct6')
+        tl.to('.circle', {
+            rotate: '920deg',
+        }, 'sct6')
+        tl.to('.outerCircle', {
+            marginLeft: '40%',
+        }, 'sct7')
+        tl.to('.circle', {
+            rotate: '940deg',
+        }, 'sct7')
     })
 
   return (
@@ -85,7 +97,7 @@ const Cards = () => {
                     <h2>Outcomes</h2>
                 </div>
             </div>
-            <div className='mt-[2vw] w-[14vw] h-[14vw] sm:w-[6.5vw]  sm:h-[6.5vw] bg-buttonPrimary rounded-full flex items-center justify-center'>
+            <div className='outerCircle mt-[2vw] w-[14vw] h-[14vw] sm:w-[6.5vw]  sm:h-[6.5vw] bg-buttonPrimary rounded-full flex items-center justify-center'>
                 <Image src='https://assets-global.website-files.com/64b117fb0e09e8ce5768e4fe/64b7d30aa9b24259d10be24d_symbol.svg' width={32} height={10} alt='line' className='circle w-[4vw] sm:w-[2vw]'/>
             </div>
         </div>

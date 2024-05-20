@@ -23,7 +23,7 @@ const Cards = () => {
         },
         {
             title: "Flexible and scalable",
-            des: "Expect flexibility and fluidity. Pause or cancel anytime. Need more resources? No problem. You’ve just found your elastic design on demand team."
+            des: ""
         },
         {
             title: "Predictability",
@@ -109,7 +109,7 @@ const Cards = () => {
             </div>
             <div className={`content flex flex-col gap-[4vw] sm:gap-[2vw] opacity-1 `}>
                 <h4 className='text-[7vw] sm:text-[2vw] tracking-tighter'>Flexible and scalable</h4>
-                <p className='text-[4vw] sm:text-[1.2vw] sm:leading-[2vw] text-third'>Expect a team that looks at problems holistically. A team that designs solutions directly contributing to your revenue growth and business success - not just pretty pictures.</p>
+                <p className='text-[4vw] sm:text-[1.2vw] sm:leading-[2vw] text-third'>Expect flexibility and fluidity. Pause or cancel anytime. Need more resources? No problem. You’ve just found your elastic design on demand team.</p>
             </div>
 
         </div>

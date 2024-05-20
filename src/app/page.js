@@ -4,6 +4,7 @@ import { useEffect} from 'react';
 import Navbar from "@/components/navbar/Index";
 import Landing from '@/components/landing/Index';
 import About from '@/components/about/Index';
+import Cards from '@/components/cards/Index';
 
 
 export default function Home() {
@@ -22,6 +23,7 @@ export default function Home() {
       <Navbar/>
       <Landing/>
       <About/>
+      <Cards/>
     </main>
   );
 }

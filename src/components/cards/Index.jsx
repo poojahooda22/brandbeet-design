@@ -63,7 +63,7 @@ const Cards = () => {
         <div className='w-full sm:w-2/5 h-[200%]  rghtDiv flex flex-col gap-[18vw] sm:gap-[6vw] mt-[24vw] sm:mt-[32%]'>
             {data.map((item, index) => {
                 return (
-                    <div key={index} className='content flex flex-col gap-[4vw] sm:gap-[2vw] '>
+                    <div key={index} className={`content flex flex-col gap-[4vw] sm:gap-[2vw] `}>
                         <h4 className='text-[7vw] sm:text-[2vw] tracking-tighter'>{item.title}</h4>
                         <p className='text-[4vw] sm:text-[1.2vw] sm:leading-[2vw] text-third'>{item.des}</p>
                     </div>

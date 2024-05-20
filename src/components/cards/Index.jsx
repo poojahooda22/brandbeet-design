@@ -14,8 +14,7 @@ const Cards = () => {
             des: ""
         },
         {
-            title: "",
-            des: ""
+
         },
         {
 

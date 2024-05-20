@@ -26,6 +26,9 @@ const Cards = () => {
             marginTop: "-25%",
             opacity: 1,
         }, 'sct1')
+        tl.to('.circle', {
+            rotate: '180deg',
+        }, 'sct1')
         tl.to('.content2', {        
             opacity: 1,
         }, 'sct2')
@@ -33,11 +36,14 @@ const Cards = () => {
             marginTop: "-100%",
             opacity: 0,
         }, 'sct2')
+        tl.to('.circle', {
+            rotate: '180deg',
+        }, 'sct2')
         tl.to('.content3', {        
             opacity: 1,
         }, 'sct3')
         tl.to('.content1', {
-            marginTop: "-200%",
+            marginTop: "-150%",
             opacity: 0,
         }, 'sct3')
         // tl.to('.content4', {        
@@ -62,7 +68,7 @@ const Cards = () => {
                 </div>
             </div>
             <div className='mt-[2vw] w-[14vw] h-[14vw] sm:w-[6.5vw]  sm:h-[6.5vw] bg-buttonPrimary rounded-full flex items-center justify-center'>
-                <Image src='https://assets-global.website-files.com/64b117fb0e09e8ce5768e4fe/64b7d30aa9b24259d10be24d_symbol.svg' width={32} height={10} alt='line' className='w-[4vw] sm:w-[2vw]'/>
+                <Image src='https://assets-global.website-files.com/64b117fb0e09e8ce5768e4fe/64b7d30aa9b24259d10be24d_symbol.svg' width={32} height={10} alt='line' className='circle w-[4vw] sm:w-[2vw]'/>
             </div>
         </div>
         <div className='w-full sm:w-2/5 h-[200%]  rghtDiv flex flex-col gap-[18vw] sm:gap-[7vw] mt-[24vw] sm:mt-[32%]'> 

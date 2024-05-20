@@ -52,7 +52,7 @@ function Landing() {
   return (
     <div 
       className='part1 w-[100%] h-[100vh] md:w-[100%] 
-      md:h-[100vh] bg-black overflow-hidden'
+      md:h-[100vh] bg-primary overflow-hidden'
     >
       <div 
         className='contentPart1 w-[100%] h-[100vh] md:w-[100%] 
@@ -62,7 +62,7 @@ function Landing() {
       >
         <div 
           className='rotateDiv w-[200vw] h-[200vh] md:w-[200vw] 
-          md:h-[200vh] bg-black  scale-100
+          md:h-[200vh] bg-primary  scale-100
           flex items-start
           justify-center gap-[6vw] md:gap-[2vw]'
         >
@@ -152,12 +152,12 @@ function Landing() {
         </div>
 
         <div className='overlayDiv absolute flex items-center 
-        text-[#fff] overflow-hidden bg-transparent justify-center w-[100%] h-[100vh] '>
+        text-secondary overflow-hidden bg-transparent justify-center w-[100%] h-[100vh] '>
           <h1 className='opacity-0  tracking-tighter leading-[10vw] text-[12vw] sm:text-[11vw]'>Brandbeet</h1>
           <div className='scrollDown absolute bottom-12 sm:bottom-10 sm:left-1/2 flex flex-col items-center gap-1'>
             <h3 className='text-[2.3vw] sm:text-[.6vw] uppercase text-center'>scroll down</h3>
-            <div className='scrollingP w-[16vw] sm:w-[5vw] bg-zinc-500 h-[.3vw] sm:h-[.1vw] relative rounded-md'>
-              <div className='scrolling absolute top-0 w-[0vw] sm:w-[0vw] bg-white  h-[.3vw] sm:h-[.1vw] rounded-md'></div>
+            <div className='scrollingP w-[16vw] sm:w-[5vw] bg-third h-[.3vw] sm:h-[.1vw] relative rounded-md'>
+              <div className='scrolling absolute top-0 w-[0vw] sm:w-[0vw] bg-secondary  h-[.3vw] sm:h-[.1vw] rounded-md'></div>
             </div>
           </div>
         </div>

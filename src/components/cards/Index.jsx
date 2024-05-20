@@ -28,24 +28,26 @@ const Cards = () => {
     ]
 
   return (
-    <div className='part3 w-full h-[100vh] bg-secondary px-[5vw] sm:px-[2.5vw] relative flex justify-between'>
-        <div className='leftDiv w-1/2 h-[100%]  flex sm:flex-col justify-center'>
-            <div className='sm:text-[8vw] tracking-tighter leading-[9vw]'>
-                <h2>Expected</h2>
+    <div className='part3 w-full h-[100vh] bg-secondary px-[5vw] sm:px-[2.5vw] relative flex flex-col mt-[30vw] sm:mt-0 sm:flex sm:flex-row sm:justify-between'>
+        <div className='leftDiv w-full sm:w-1/2 sm:h-[100%]  flex flex-col gap-[6vw] sm:gap-0 sm:justify-center'>
+           <div className='flex gap-[2vw] sm:gap-0 sm:flex-col'>
+                <div className='text-[9vw] sm:text-[8vw] tracking-tighter leading-[9vw]'>
+                    <h2>Expected</h2>
+                </div>
+                <div className='text-[9vw] sm:text-[8vw] tracking-tighter leading-[9vw]'>
+                    <h2>Outcomes</h2>
+                </div>
             </div>
-            <div className='sm:text-[8vw] tracking-tighter leading-[9vw]'>
-                <h2>Outcomes</h2>
-            </div>
-            <div className='mt-[2vw] w-[6.5vw] h-[6.5vw] bg-buttonPrimary rounded-full flex items-center justify-center'>
-                <Image src='https://assets-global.website-files.com/64b117fb0e09e8ce5768e4fe/64b7d30aa9b24259d10be24d_symbol.svg' width={32} height={10} alt='line'/>
+            <div className='mt-[2vw] w-[14vw] h-[14vw] sm:w-[6.5vw]  sm:h-[6.5vw] bg-buttonPrimary rounded-full flex items-center justify-center'>
+                <Image src='https://assets-global.website-files.com/64b117fb0e09e8ce5768e4fe/64b7d30aa9b24259d10be24d_symbol.svg' width={32} height={10} alt='line' className='w-[4vw] sm:w-[2vw]'/>
             </div>
         </div>
-        <div className='w-2/5  rghtDiv flex flex-col gap-[5vw] mt-[6vw]'>
+        <div className='w-full sm:w-2/5  rghtDiv flex flex-col gap-[18vw] sm:gap-[6vw] mt-[16vw] sm:mt-[6vw]'>
             {data.map((item, index) => {
                 return (
-                    <div key={index} className='content flex flex-col gap-[2vw]'>
-                        <h4 className='text-[2vw] '>{item.title}</h4>
-                        <p className='text-[1.2vw] leading-[2vw] text-third'>{item.des}</p>
+                    <div key={index} className='content flex flex-col gap-[4vw] sm:gap-[2vw] '>
+                        <h4 className='text-[7vw] sm:text-[2vw] tracking-tighter'>{item.title}</h4>
+                        <p className='text-[4vw] sm:text-[1.2vw] sm:leading-[2vw] text-third'>{item.des}</p>
                     </div>
                 )
             })}

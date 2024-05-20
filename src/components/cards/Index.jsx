@@ -105,7 +105,7 @@ const Cards = () => {
             </div>
             <div className={`content flex flex-col gap-[4vw] sm:gap-[2vw] opacity-1 `}>
                 <h4 className='text-[7vw] sm:text-[2vw] tracking-tighter'>Stress free design</h4>
-                <p className='text-[4vw] sm:text-[1.2vw] sm:leading-[2vw] text-third'>Expect a team that looks at problems holistically. A team that designs solutions directly contributing to your revenue growth and business success - not just pretty pictures.</p>
+                <p className='text-[4vw] sm:text-[1.2vw] sm:leading-[2vw] text-third'>Expect no extra charge if things need changing. It’s all about you. It’ll be iterated on until you are 100% happy. Once done expect design you and your mom can be proud of.</p>
             </div>
             <div className={`content flex flex-col gap-[4vw] sm:gap-[2vw] opacity-1 `}>
                 <h4 className='text-[7vw] sm:text-[2vw] tracking-tighter'>Flexible and scalable</h4>

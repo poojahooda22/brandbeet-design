@@ -47,13 +47,7 @@ const Cards = () => {
             marginTop: "-200%",
             opacity: 0,
         }, 'sct4')
-        tl.to(contentRefs.current[5], {        
-            opacity: 1,
-        }, 'sct5')
-        tl.to(contentRefs.current[1], {
-            marginTop: "-250%",
-            opacity: 0,
-        }, 'sct5')
+
     })
 
   return (
@@ -72,19 +66,19 @@ const Cards = () => {
             </div>
         </div>
         <div className='w-full sm:w-2/5 h-[200%]  rghtDiv flex flex-col gap-[18vw] sm:gap-[6vw] mt-[24vw] sm:mt-[32%]'> 
-            <div className={`content flex flex-col gap-[4vw] sm:gap-[2vw] opacity-1 `}>
+            <div className={`content1 flex flex-col gap-[4vw] sm:gap-[2vw] opacity-0 `}>
                 <h4 className='text-[7vw] sm:text-[2vw] tracking-tighter'>Growth and ROI</h4>
                 <p className='text-[4vw] sm:text-[1.2vw] sm:leading-[2vw] text-third'>Expect a team that looks at problems holistically. A team that designs solutions directly contributing to your revenue growth and business success - not just pretty pictures.</p>
             </div>
-            <div className={`content flex flex-col gap-[4vw] sm:gap-[2vw] opacity-1 `}>
+            <div className={`content2 flex flex-col gap-[4vw] sm:gap-[2vw] opacity-0 `}>
                 <h4 className='text-[7vw] sm:text-[2vw] tracking-tighter'>Top tier designers</h4>
                 <p className='text-[4vw] sm:text-[1.2vw] sm:leading-[2vw] text-third'>Expect the 1% only. Recruited from a global talent pool you’ll have access to some truly talented designers. Heavily vetted - we’ve hired the best to serve the great.</p>
             </div>
-            <div className={`content flex flex-col gap-[4vw] sm:gap-[2vw] opacity-1 `}>
+            <div className={`content3 flex flex-col gap-[4vw] sm:gap-[2vw] opacity-0 `}>
                 <h4 className='text-[7vw] sm:text-[2vw] tracking-tighter'>Stress free design</h4>
                 <p className='text-[4vw] sm:text-[1.2vw] sm:leading-[2vw] text-third'>Expect no extra charge if things need changing. It’s all about you. It’ll be iterated on until you are 100% happy. Once done expect design you and your mom can be proud of.</p>
             </div>
-            <div className={`content flex flex-col gap-[4vw] sm:gap-[2vw] opacity-1 `}>
+            <div className={`content4 flex flex-col gap-[4vw] sm:gap-[2vw] opacity-0 `}>
                 <h4 className='text-[7vw] sm:text-[2vw] tracking-tighter'>Flexible and scalable</h4>
                 <p className='text-[4vw] sm:text-[1.2vw] sm:leading-[2vw] text-third'>Expect flexibility and fluidity. Pause or cancel anytime. Need more resources? No problem. You’ve just found your elastic design on demand team.</p>
             </div>

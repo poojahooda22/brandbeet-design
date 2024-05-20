@@ -69,7 +69,7 @@ function About() {
             <h3 className='text-[1.2vw] text-[#858588] tracking-tight'>Unlock profit with monthly design sprints.</h3>
             <div className='cta flex items-center gap-[2vw]'>
                 <div className={`ctaBook ${style.ctaBook} flex flex-col items-center justify-center
-                 bg-black text-white h-[1vw] py-[.1vw] whitespace-nowrap `}>
+                 bg-black text-white h-[2vw] whitespace-nowrap `}>
                     <h3 className=''>Book a demo</h3>
                     <h3 className=''>Book a demo</h3>
                 </div>

@@ -24,7 +24,7 @@ const Cards = () => {
 
         {
             title: "Predictability",
-            des: "Expect peace of mind. Say goodbye to hidden costs and designers who are unavailable when you need them most. Expect reliable consistent quality that exceeds expectations."
+            des: ""
         },
 
     ]

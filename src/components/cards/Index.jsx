@@ -87,6 +87,7 @@ const Cards = () => {
                 <Image src='https://assets-global.website-files.com/64b117fb0e09e8ce5768e4fe/64b7d30aa9b24259d10be24d_symbol.svg' width={32} height={10} alt='line' className='circle w-[4vw] sm:w-[2vw]'/>
             </div>
         </div>
+        
         <div className='w-full sm:w-2/5 sm:h-[200%]  rghtDiv flex flex-col gap-[18vw] sm:gap-[7vw] mt-[24vw] sm:mt-[32%]'> 
             <div className={`content1 flex flex-col gap-[4vw] sm:gap-[2vw] opacity-0 `}>
                 <h4 className='text-[7vw] sm:text-[2vw] tracking-tighter'>Growth and ROI</h4>

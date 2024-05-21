@@ -16,7 +16,7 @@ const Cards = () => {
             scrollTrigger: {
               trigger: '.part3',
               start: '50% 50%',
-              end: '300% 50%',
+              end: '200% 50%',
               scrub: 1,
               pin: true,
             }
@@ -84,21 +84,22 @@ const Cards = () => {
             rotate: '980deg',
         }, 'sct7')
         tl.to('.outerCircle', {
-            marginLeft: '100%',
+            marginLeft: '95%',
         }, 'sct8')
         tl.to('.circle', {
             rotate: '1060deg',
         }, 'sct8')
+
     })
 
   return (
-    <div className='part3 w-full h-[100vh] bg-secondary px-[5vw] sm:px-[2.5vw] relative flex flex-col pt-[4vw] sm:mt-0 sm:flex sm:flex-row sm:justify-between'>
+    <div className='part3 w-full h-[100vh] bg-secondary px-[5vw] sm:px-[2.5vw] relative flex flex-col pt-[4vw] sm:mt-0 sm:flex sm:flex-row sm:justify-between overflow-hidden sm:overflow-hidden'>
         <div className='leftDiv sm:w-1/2 sm:h-[100%] py-[16vw] sm:py-0 flex flex-col gap-[6vw] sm:gap-0 sm:justify-center'>
            <div className='flex gap-[2vw] sm:gap-0 sm:flex-col'>
-                <div className='text-[9vw] sm:text-[8vw] tracking-tighter leading-[9vw]'>
+                <div className='text-[9vw] sm:text-[7vw] tracking-tighter leading-[8vw]'>
                     <h2>Expected</h2>
                 </div>
-                <div className='text-[9vw] sm:text-[8vw] tracking-tighter leading-[9vw]'>
+                <div className='text-[9vw] sm:text-[7vw] tracking-tighter leading-[8vw]'>
                     <h2>Outcomes</h2>
                 </div>
             </div>
@@ -106,7 +107,7 @@ const Cards = () => {
                 <Image src='https://assets-global.website-files.com/64b117fb0e09e8ce5768e4fe/64b7d30aa9b24259d10be24d_symbol.svg' width={32} height={10} alt='line' className='circle w-[4vw] sm:w-[2vw]'/>
             </div>
         </div>
-        <div className='w-full sm:w-2/5 h-[200%]  rghtDiv flex flex-col gap-[18vw] sm:gap-[7vw] mt-[24vw] sm:mt-[32%]'> 
+        <div className='w-full sm:w-2/5 h-[100%] sm:h-[200%]  rghtDiv flex flex-col gap-[18vw] sm:gap-[7vw] mt-[24vw] sm:mt-[32%]'> 
             <div className={`content1 flex flex-col gap-[4vw] sm:gap-[2vw] opacity-0 `}>
                 <h4 className='text-[7vw] sm:text-[2vw] tracking-tighter'>Growth and ROI</h4>
                 <p className='text-[4vw] sm:text-[1.2vw] sm:leading-[2vw] text-third'>Expect a team that looks at problems holistically. A team that designs solutions directly contributing to your revenue growth and business success - not just pretty pictures.</p>
@@ -123,8 +124,8 @@ const Cards = () => {
                 <h4 className='text-[7vw] sm:text-[2vw] tracking-tighter'>Flexible and scalable</h4>
                 <p className='text-[4vw] sm:text-[1.2vw] sm:leading-[2vw] text-third'>Expect flexibility and fluidity. Pause or cancel anytime. Need more resources? No problem. You’ve just found your elastic design on demand team.</p>
             </div>
-
         </div>
+    
     </div>
   )
 }

@@ -79,7 +79,6 @@ const Cards = () => {
         // }, 'sct6')
         // tl.to('.outerCircle', {
 
-        // }, 'sct7')
 
 
     })

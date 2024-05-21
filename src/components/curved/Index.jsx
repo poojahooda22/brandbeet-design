@@ -69,6 +69,9 @@ function CurvedSec() {
                 <h2 className='overflow-hidden w-[100%] sm:w-0'>profitable outcomes</h2>
             </div>
         </div>
+
+
+        
     </div>
   )
 }

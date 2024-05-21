@@ -75,8 +75,7 @@ function CurvedSec() {
         <div className='px-[5vw] sm:px-[2.5vw] mt-[-35%]  sm:mt-[-8%]'>
             <UnderLine marginBottom='0vw' marginTop='0vw' />
         </div>
-        
-        
+          
     </div>
   )
 }

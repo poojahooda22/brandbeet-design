@@ -6,6 +6,7 @@ import Landing from '@/components/landing/Index';
 import About from '@/components/about/Index';
 import Cards from '@/components/cards/Index';
 import Summary from '@/components/summary/Index';
+import Work from '@/components/work/Index';
 
 
 export default function Home() {
@@ -26,6 +27,7 @@ export default function Home() {
       <About/>
       <Cards/>
       <Summary/>
+      <Work/>
     </main>
   );
 }

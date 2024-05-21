@@ -75,7 +75,7 @@ const Cards = () => {
         //     marginLeft: '20%',
         // }, 'sct6')
         // tl.to('.circle', {
-        //     
+
 
 
     })

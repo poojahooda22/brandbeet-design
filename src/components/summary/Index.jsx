@@ -14,7 +14,6 @@ function Summary() {
     //     trigger: '.part4Sum',
     //     start: '50% 100%',
     //     end: '50% 50%',
-    //   
     //   }
     // })
     

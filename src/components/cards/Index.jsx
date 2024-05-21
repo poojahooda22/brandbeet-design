@@ -71,24 +71,24 @@ const Cards = () => {
         tl.to('.circle', {
             rotate: '900deg',
         }, 'sct5')
-        tl.to('.outerCircle', {
-            marginLeft: '20%',
-        }, 'sct6')
-        tl.to('.circle', {
-            rotate: '940deg',
-        }, 'sct6')
-        tl.to('.outerCircle', {
-            marginLeft: '60%',
-        }, 'sct7')
-        tl.to('.circle', {
-            rotate: '980deg',
-        }, 'sct7')
-        tl.to('.outerCircle', {
-            marginLeft: '95%',
-        }, 'sct8')
-        tl.to('.circle', {
-            rotate: '1060deg',
-        }, 'sct8')
+        // tl.to('.outerCircle', {
+        //     marginLeft: '20%',
+        // }, 'sct6')
+        // tl.to('.circle', {
+        //     rotate: '940deg',
+        // }, 'sct6')
+        // tl.to('.outerCircle', {
+        //     marginLeft: '60%',
+        // }, 'sct7')
+        // tl.to('.circle', {
+        //     rotate: '980deg',
+        // }, 'sct7')
+        // tl.to('.outerCircle', {
+        //     marginLeft: '95%',
+        // }, 'sct8')
+        // tl.to('.circle', {
+        //     rotate: '1060deg',
+        // }, 'sct8')
 
     })
 

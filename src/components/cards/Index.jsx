@@ -9,7 +9,7 @@ gsap.registerPlugin(ScrollTrigger)
 const Cards = () => {
 
 
-    const contentRefs = useRef([]);
+    
 
     useGSAP(() => {
         const tl = gsap.timeline({

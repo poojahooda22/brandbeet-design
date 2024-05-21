@@ -6,7 +6,8 @@ import Landing from '@/components/landing/Index';
 import About from '@/components/about/Index';
 import Cards from '@/components/cards/Index';
 import Summary from '@/components/summary/Index';
-import Work from '@/components/work/Index';
+import Work from '@/components/curved/Index';
+import CurvedSec from '@/components/curved/Index';
 
 
 export default function Home() {
@@ -27,7 +28,7 @@ export default function Home() {
       <About/>
       <Cards/>
       <Summary/>
-      <Work/>
+      <CurvedSec/>
     </main>
   );
 }

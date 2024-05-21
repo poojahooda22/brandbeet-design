@@ -72,7 +72,6 @@ const Cards = () => {
             rotate: '900deg',
         }, 'sct5')
         // tl.to('.outerCircle', {
-        //     marginLeft: '20%',
 
 
     })

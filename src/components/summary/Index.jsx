@@ -10,7 +10,7 @@ function Summary() {
   
   useGSAP(() => {
     // const tl = gsap.timeline({
-    //   scrollTrigger: {
+    //   scrollTrigger
     // })
     
     let mm = gsap.matchMedia();

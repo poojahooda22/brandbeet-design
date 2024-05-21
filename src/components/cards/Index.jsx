@@ -81,8 +81,6 @@ const Cards = () => {
         //     marginLeft: '60%',
         // }, 'sct7')
 
-        
-
 
     })
 

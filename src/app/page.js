@@ -29,7 +29,7 @@ export default function Home() {
       <Cards/>
       <Summary/>
       <CurvedSec/>
-      {/* <Work/> */}
+      <Work/>
     </main>
   );
 }

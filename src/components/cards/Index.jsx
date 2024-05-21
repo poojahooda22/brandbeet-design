@@ -83,9 +83,7 @@ const Cards = () => {
         // tl.to('.circle', {
         //     rotate: '980deg',
         // }, 'sct7')
-        // tl.to('.outerCircle', {
-        //     marginLeft: '95%',
-        // }, 'sct8')
+        
 
 
     })

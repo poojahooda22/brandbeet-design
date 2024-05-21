@@ -11,7 +11,6 @@ function Summary() {
   useGSAP(() => {
     // const tl = gsap.timeline({
     //   scrollTrigger: {
-    //     
     //   }
     // })
     

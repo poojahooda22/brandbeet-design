@@ -11,7 +11,7 @@ function Summary() {
   useGSAP(() => {
     // const tl = gsap.timeline({
     //   scrollTrigger: {
-    //     trigger: '.part4Sum', 
+    //     trigger: 
     //   }
     // })
     

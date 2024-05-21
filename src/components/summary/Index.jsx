@@ -12,7 +12,7 @@ function Summary() {
     // const tl = gsap.timeline({
     //   scrollTrigger: {
     //     trigger: '.part4Sum',
-    //     start: '50% 
+    //     start: 
     //   }
     // })
     

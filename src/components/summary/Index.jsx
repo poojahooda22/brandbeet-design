@@ -49,7 +49,7 @@ function Summary() {
 
 
   return (
-    <div className='part4Sum w-full h-[50vh] sm:h-[100vh] bg-secondary mt-[-10%]' >
+    <div className='part4Sum w-full h-[50vh] sm:h-[100vh] bg-secondary mt-[-10%]'>
       <div className='part4Content w-full  flex flex-col items-center justify-center pt-[10vw] '>
         <h5 className='sumtext text-[8vw] sm:text-[2.5vw] text-textComplimentary tracking-tighter'>In summary..</h5>
         <div className=' sm:mt-[5%] mt-[10vw]'>

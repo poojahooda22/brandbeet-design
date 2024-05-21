@@ -80,9 +80,7 @@ const Cards = () => {
         // tl.to('.outerCircle', {
         //     marginLeft: '60%',
         // }, 'sct7')
-        // tl.to('.circle', {
-        //     
-        // }, 'sct7')
+
         
 
 

@@ -2,6 +2,7 @@ import React from 'react'
 import { useGSAP } from '@gsap/react'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import UnderLine from '../Underline/Index';
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -54,8 +55,9 @@ function CurvedSec() {
         <div className='hidden sm:flex roundedDivWrapper2 relative w-[100%] h-[100px]  overflow-hidden pt-[5vw] '>
             <div className='roundedDiv w-[150%] h-[750%] rounded-[50%] bg-secondary  absolute left-1/2 bottom-0 -translate-x-1/2 '></div>
         </div>
+        
 
-        <div className='WorkSec w-[100%] h-[50vh] sm:h-[100vh] mt-[25vw] sm:mt-[10vw] relative px-[5vw] sm:px-[2.5vw] overflow-hidden'>
+        <div className='WorkSec w-[100%]  h-[50vh] sm:h-[80vh] mt-[25vw] sm:mt-[10vw] relative px-[5vw] sm:px-[2.5vw] overflow-hidden'>
             <div className='textArea absolute left-[5%] sm:left-[2%] opacity-[.2] text-[10vw] leading-[10vw]  sm:text-[7vw] tracking-tighter sm:whitespace-nowrap '>
                 <h2>Design services for</h2>
             </div>
@@ -70,7 +72,10 @@ function CurvedSec() {
             </div>
         </div>
 
-
+        <div className='px-[5vw] sm:px-[2.5vw] mt-[-35%]  sm:mt-[-8%]'>
+            <UnderLine marginBottom='0vw' marginTop='0vw' />
+        </div>
+        
         
     </div>
   )

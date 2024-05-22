@@ -15,7 +15,7 @@ function Footer() {
     //           start: '50% 80%',
     //           end: ' ',
     //           scr
-    //           markers: ,
+    //           marke,
     //         }
     //     })
     //     tl.from('.footPtag p', {

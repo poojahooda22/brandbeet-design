@@ -16,7 +16,6 @@ function Work() {
         end: '200% 50%',
         scrub: 1,
         pin: true,
-        markers: true,
       }
     })
     tl.to(".ourWorktxt", {
@@ -39,7 +38,7 @@ function Work() {
 
 
   return (
-    <div className='part7 w-full h-[100vh] bg-primary text-secondary flex items-center justify-center'>
+    <div className='part7 w-full h-[100vh] bg-primary text-secondary flex items-center justify-center overflow-hidden'>
       <div className='ourWorktxt absolute w-[75vw] sm:w-[60vw]  h-[0vh] z-[9] '>
         <h1 className='our absolute top-0 left-[30%] sm:left-[35%] text-[10vw] sm:text-[6vw] tracking-tighter -translate-x-1/2 -translate-y-1/2' >Our</h1>
         <h1 className='work absolute bottom-0 right-[40%] sm:right-[42%] text-[10vw] sm:text-[6vw] tracking-tighter  translate-x-1/2 translate-y-1/2' >Work</h1>

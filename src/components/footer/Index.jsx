@@ -19,7 +19,7 @@ function Footer() {
     //         }
     //     })
     //     tl.from('.footPtag p', {
-    //         y: '100px',
+    //         y: '',
     //         opacity: 0,
     //         stagger: 1,
     //     })  

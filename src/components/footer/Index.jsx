@@ -13,7 +13,6 @@ function Footer() {
     //         }
     //     })
     //     tl.from('.footPtag p', {
-    //         y: '',
     //         opacity: 0,
     //         stagger: 1,
     //     })  

@@ -10,9 +10,8 @@ function Footer() {
 
     // useGSAP(() => {
     //     const tl = gsap.timeline({
-    // 
     //     })
-    //     tl.from('.footPtag p', {
+    //     tl.from('.footPta', {
     //     })  
     // })
 

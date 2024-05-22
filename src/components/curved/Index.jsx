@@ -3,6 +3,7 @@ import { useGSAP } from '@gsap/react'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import UnderLine from '../Underline/Index';
+import style from './style.module.css'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -51,7 +52,7 @@ function CurvedSec() {
 
 
   return (
-    <div className='part5Work w-full h-[50vh] sm:h-[100vh] bg-gray overflow-hidden'>
+    <div className='part5Work w-full h-[50vh] sm:h-[140vh] bg-gray overflow-hidden'>
         <div className='hidden sm:flex roundedDivWrapper2 relative w-[100%] h-[100px]  overflow-hidden pt-[5vw] '>
             <div className='roundedDiv w-[150%] h-[750%] rounded-[50%] bg-secondary  absolute left-1/2 bottom-0 -translate-x-1/2 '></div>
         </div>
@@ -74,6 +75,42 @@ function CurvedSec() {
 
         <div className='px-[5vw] sm:px-[2.5vw] mt-[-35%]  sm:mt-[-8%]'>
             <UnderLine marginBottom='0vw' marginTop='0vw' />
+        </div>
+
+        <div className='w-full px-[5vw] sm:px-[2.5vw] py-[4vw] flex items-center '>
+            <h3 className='w-1/2 text-[4vw] '>Brand</h3>
+            <div className='z-[8]'>
+            <div className='bg-primary px-[10vw] py-[6vw] sm:px-[2.2vw] sm:py-[1.2vw] rounded-full cursor-pointer'>
+                    <div 
+                        className={`ctaBook ${style.ctaBook} text-[4vw] sm:text-[1vw] tracking-tight
+                         text-secondary h-[5.2vw] sm:h-[1.3vw] whitespace-nowrap overflow-hidden`}
+                    >
+                        <h3 className=''>View Pricing</h3>
+                        <h3 className=''>View Pricing</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div className='px-[5vw] sm:px-[2.5vw] '>
+            <UnderLine marginBottom='0vw' marginTop='0vw' />
+        </div>
+
+        <div className='w-full px-[5vw] sm:px-[2.5vw] py-[4vw] flex items-center '>
+            <h3 className='w-1/2 text-[4vw] '></h3>
+            <div className='z-[8]'>
+                <h4 className='sm:text-[2vw]'>1-2 weeks average/2 dsign sprints</h4>
+                <div>
+                    <h5>Logo design</h5>
+                    <h5>Visual Identity</h5>
+                    <h5>Collateral</h5>
+                    <div>
+                        <h5>Logo design</h5>
+                        <h5>Visual Identity</h5>
+                        <h5>Collateral</h5>
+                    </div>
+                </div>
+            </div>
         </div>
           
     </div>

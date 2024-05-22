@@ -11,7 +11,7 @@ function Footer() {
     // useGSAP(() => {
     //     const tl = gsap.timeline({
     //         scrollTrigger: {
-    //           trigger: '.part8',
+    //           trigger: '.p8',
     //         }
     //     })
     //     tl.from('.footPtag p', {

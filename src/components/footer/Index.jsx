@@ -9,7 +9,7 @@ gsap.registerPlugin(ScrollTrigger);
 function Footer() {
 
     // useGSAP(() => {
-    //     const tl = gsap.
+    //     const tl
     // })
 
 

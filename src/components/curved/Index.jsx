@@ -18,20 +18,20 @@ function CurvedSec() {
                 width: '100%',
                 duration: 1,
                 scrollTrigger: {
-                    trigger: '.part5Work',
-                    start: '50% 80%',
-                    end: '50% 50%',
+                    trigger: '.WorkSec',
+                    start: '50% 90%',
+                    end: '60% 40%',
                     scrub: 1,
+                    markers: true,
                 }
             })
             gsap.to('.textAreaHover5 h2', {
                 width: '100%',
-                delay: 2,
-                duration: 2,
+                duration: 1,
                 scrollTrigger: {
-                    trigger: '.part5Work',
-                    start: '30% 50%',
-                    end: '50% 50%',
+                    trigger: '.WorkSec',
+                    start: '50% 80%',
+                    end: '60% 40%',
                     scrub: 1,
                 }
             })
@@ -52,7 +52,7 @@ function CurvedSec() {
 
 
   return (
-    <div className='part5Work w-full h-[50vh] sm:h-[140vh] bg-gray overflow-hidden'>
+    <div className='part5Work w-full h-[100vh] sm:h-[180vh] bg-gray overflow-hidden'>
         <div className='hidden sm:flex roundedDivWrapper2 relative w-[100%] h-[100px]  overflow-hidden pt-[5vw] '>
             <div className='roundedDiv w-[150%] h-[750%] rounded-[50%] bg-secondary  absolute left-1/2 bottom-0 -translate-x-1/2 '></div>
         </div>
@@ -77,12 +77,12 @@ function CurvedSec() {
             <UnderLine marginBottom='0vw' marginTop='0vw' />
         </div>
 
-        <div className='w-full px-[5vw] sm:px-[2.5vw] py-[4vw] flex items-center '>
-            <h3 className='w-1/2 text-[4vw] '>Brand</h3>
+        <div className='w-full px-[5vw] sm:px-[2.5vw] py-[8vw] sm:py-[4vw] flex items-center justify-between sm:justify-start tracking-tighter '>
+            <h3 className='w-1/2 text-[9vw] sm:text-[4vw] '>Brand</h3>
             <div className='z-[8]'>
-            <div className='bg-primary px-[10vw] py-[6vw] sm:px-[2.2vw] sm:py-[1.2vw] rounded-full cursor-pointer'>
+            <div className='bg-primary px-[6vw] py-[4vw] sm:px-[2.2vw] sm:py-[1.2vw] rounded-full cursor-pointer'>
                     <div 
-                        className={`ctaBook ${style.ctaBook} text-[4vw] sm:text-[1vw] tracking-tight
+                        className={`ctaBook ${style.ctaBook} text-[4vw] sm:text-[1vw]
                          text-secondary h-[5.2vw] sm:h-[1.3vw] whitespace-nowrap overflow-hidden`}
                     >
                         <h3 className=''>View Pricing</h3>
@@ -92,22 +92,24 @@ function CurvedSec() {
             </div>
         </div>
 
-        <div className='px-[5vw] sm:px-[2.5vw] '>
+        <div className='px-[5vw] sm:px-[2.5vw]'>
             <UnderLine marginBottom='0vw' marginTop='0vw' />
         </div>
 
-        <div className='w-full px-[5vw] sm:px-[2.5vw] py-[4vw] flex items-center '>
-            <h3 className='w-1/2 text-[4vw] '></h3>
-            <div className='z-[8]'>
-                <h4 className='sm:text-[2vw]'>1-2 weeks average/2 dsign sprints</h4>
-                <div>
-                    <h5>Logo design</h5>
-                    <h5>Visual Identity</h5>
-                    <h5>Collateral</h5>
+        <div className='w-full px-[5vw] sm:px-[2.5vw] py-[8vw] sm:py-[2vw] flex items-center '>
+            <h3 className='hidden sm:inline-block w-1/2 text-[4vw] '></h3>
+            <div className='z-[8] tracking-tighter'>
+                <h4 className='text-[7vw] leading-[7vw] sm:text-[2vw]'>1-2 weeks average /2 design sprints</h4>
+                <div className='text-textComplimentary text-[4vw] leading-[8vw] sm:text-[1.5vw] mt-[4vw] sm:mt-[0vw] sm:leading-[2.5vw] flex gap-[16vw] sm:block'>
                     <div>
                         <h5>Logo design</h5>
                         <h5>Visual Identity</h5>
                         <h5>Collateral</h5>
+                    </div>
+                    <div>
+                        <h5>Brand Guidelines</h5>
+                        <h5>Animation</h5>
+                        <h5>Naming</h5>
                     </div>
                 </div>
             </div>

@@ -8,6 +8,7 @@ import Cards from '@/components/cards/Index';
 import Summary from '@/components/summary/Index';
 import CurvedSec from '@/components/curved/Index';
 import Work from '@/components/mywork/Index';
+import Footer from '@/components/footer/Index';
 
 
 export default function Home() {
@@ -30,6 +31,7 @@ export default function Home() {
       <Summary/>
       <CurvedSec/>
       <Work/>
+      <Footer/>
     </main>
   );
 }

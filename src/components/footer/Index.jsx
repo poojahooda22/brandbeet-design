@@ -10,10 +10,9 @@ function Footer() {
 
     // useGSAP(() => {
     //     const tl = gsap.timeline({
-    //         }
+    // 
     //     })
     //     tl.from('.footPtag p', {
-    //         stag
     //     })  
     // })
 

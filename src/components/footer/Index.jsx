@@ -9,15 +9,14 @@ gsap.registerPlugin(ScrollTrigger);
 function Footer() {
 
     useGSAP(() => {
-        // const tl = gsap.timeline({
-        //     scrollTrigger: {
-        //       trigger: '.part7',
-        //       start: '50% 50%',
-        //       end: '200% 50%',
-        //       scrub: 1,
-        //       pin: true,
-        //     }
-        // })
+        const tl = gsap.timeline({
+            scrollTrigger: {
+              trigger: '.part8',
+              start: '50% 50%',
+              end: '200% 50%',
+              scrub: 1,
+            }
+        })
     })
   return (
     <div className='relative h-[100vh]'
@@ -25,7 +24,7 @@ function Footer() {
     >
         <div className='relative h-[calc(100vh+100vh)] -top-[100vh]'>
             <div className='sticky top-[calc(100vh-100vh)] h-[100vh]'>
-                <div className='w-full h-[100vh] bg-secondary flex items-center justify-center relative'>
+                <div className='part8 w-full h-[100vh] bg-secondary flex items-center justify-center relative'>
                     <div className='w-full flex flex-col items-center'>
                         <div className=' flex flex-col items-center justify-between'>
                             <h2 className='sm:text-[8vw] tracking-tighter'>

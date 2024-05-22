@@ -11,7 +11,7 @@ function Footer() {
     // useGSAP(() => {
     //     const tl = gsap.timeline({
     //     })
-    //     tl.from('.foot', {
+    //     tl.from('.f', {
     //     })  
     // })
 

@@ -14,7 +14,7 @@ function Footer() {
     //           trigger: '.part8',
     //           start: '50% 80%',
     //           end: ' ',
-    //           scrub: 1,
+    //           scrub: 
     //           markers: true,
     //         }
     //     })

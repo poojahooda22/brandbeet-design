@@ -9,15 +9,15 @@ gsap.registerPlugin(ScrollTrigger);
 function Footer() {
 
     useGSAP(() => {
-        const tl = gsap.timeline({
-            scrollTrigger: {
-              trigger: '.part7',
-              start: '50% 50%',
-              end: '200% 50%',
-              scrub: 1,
-              pin: true,
-            }
-        })
+        // const tl = gsap.timeline({
+        //     scrollTrigger: {
+        //       trigger: '.part7',
+        //       start: '50% 50%',
+        //       end: '200% 50%',
+        //       scrub: 1,
+        //       pin: true,
+        //     }
+        // })
     })
   return (
     <div className='relative h-[100vh]'

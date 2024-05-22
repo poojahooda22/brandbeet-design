@@ -8,16 +8,24 @@ gsap.registerPlugin(ScrollTrigger);
 
 function Footer() {
 
-    useGSAP(() => {
-        const tl = gsap.timeline({
-            scrollTrigger: {
-              trigger: '.part8',
-              start: '50% 50%',
-              end: '200% 50%',
-              scrub: 1,
-            }
-        })
-    })
+    // useGSAP(() => {
+    //     const tl = gsap.timeline({
+    //         scrollTrigger: {
+    //           trigger: '.part8',
+    //           start: '50% 80%',
+    //           end: '50% 50%',
+    //           scrub: 1,
+    //           markers: true,
+    //         }
+    //     })
+    //     tl.from('.footPtag p', {
+    //         y: '100px',
+    //         opacity: 0,
+    //         stagger: 1,
+    //     })  
+    // })
+
+
   return (
     <div className='relative h-[100vh]'
         style={{clipPath: 'polygon(0% 0, 100% 0, 100% 100%, 0 100%)'}}
@@ -27,7 +35,7 @@ function Footer() {
                 <div className='part8 w-full h-[100vh] bg-secondary flex items-center justify-center relative'>
                     <div className='w-full flex flex-col items-center'>
                         <div className=' flex flex-col items-center justify-between'>
-                            <h2 className='sm:text-[8vw] tracking-tighter'>
+                            <h2 className='text-[12vw] sm:text-[8vw] tracking-tighter'>
                                 <span>B</span>
                                 <span>r</span>
                                 <span>a</span>
@@ -38,15 +46,15 @@ function Footer() {
                                 <span>e</span>
                                 <span>t</span>
                             </h2> 
-                            <div className='sm:text-[1.5vw] text-center tracking-tighter'>
-                                <div>
+                            <div className='text-[4vw] sm:text-[1.5vw] text-center tracking-tighter'>
+                                <div className='footPtag overflow-hidden'>
                                     <p>Get a personal overview of how we work and the</p>
                                 </div>
-                                <div>
+                                <div className='footPtag overflow-hidden'>
                                     <p>commercial impact of good great design.</p>
                                 </div>
                             </div>
-                            <div className='bg-primary px-[6vw] py-[4vw] sm:px-[2.2vw] sm:py-[1.2vw] rounded-full cursor-pointer sm:mt-[3vw]'>
+                            <div className='bg-primary px-[6vw] py-[4vw] sm:px-[2.2vw] sm:py-[1.2vw] rounded-full cursor-pointer mt-[5vw] sm:mt-[3vw]'>
                                 <div 
                                     className={`ctaBook ${style.ctaBook} text-[4vw] sm:text-[1vw]
                                     text-secondary h-[5.2vw] sm:h-[1.3vw] whitespace-nowrap overflow-hidden`}
@@ -56,7 +64,7 @@ function Footer() {
                                 </div>
                             </div>
                         </div>   
-                        <h5 className='absolute bottom-10'>© Brandbeet 2023</h5>
+                        <h5 className='absolute bottom-10 tracking-tighter'>© Brandbeet 2023</h5>
                     </div>   
                 </div>
             </div>

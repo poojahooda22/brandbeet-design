@@ -13,7 +13,7 @@ function Footer() {
     //         scrollTrigger: {
     //           trigger: '.part8',
     //           start: '50% 80%',
-    //           end: '50% ',
+    //           end: ' ',
     //           scrub: 1,
     //           markers: true,
     //         }

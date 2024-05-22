@@ -9,8 +9,7 @@ gsap.registerPlugin(ScrollTrigger);
 function Footer() {
 
     // useGSAP(() => {
-    //     const tl = gsap.timeline({
-    //     })  
+    //     const tl = gsap.timeline({ 
     // })
 
 

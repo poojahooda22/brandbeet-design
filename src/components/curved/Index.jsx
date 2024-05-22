@@ -19,8 +19,8 @@ function CurvedSec() {
                 duration: 1,
                 scrollTrigger: {
                     trigger: '.WorkSec',
-                    start: '50% 90%',
-                    end: '60% 40%',
+                    start: '50% 100%',
+                    end: '50% 50%',
                     scrub: 1,
                     markers: true,
                 }
@@ -30,8 +30,8 @@ function CurvedSec() {
                 duration: 1,
                 scrollTrigger: {
                     trigger: '.WorkSec',
-                    start: '50% 80%',
-                    end: '60% 40%',
+                    start: '50% 90%',
+                    end: '50% 50%',
                     scrub: 1,
                 }
             })

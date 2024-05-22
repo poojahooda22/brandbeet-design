@@ -1,15 +1,41 @@
 import React from 'react'
+import { useGSAP } from '@gsap/react'
+import { gsap } from 'gsap'
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
 
 function Work() {
+
+  useGSAP(() => {
+    const tl = gsap.timeline({
+      scrollTrigger: {
+        trigger: '.part7',
+        start: '50% 50%',
+        end: '200% 50%',
+        scrub: 1,
+        pin: true,
+        markers: true,
+      }
+    })
+    tl.to(".ourWorktxtDiv", {
+      height: '60vh',
+    })
+    tl.to(".ourWorktxt", {
+      height: '60vh',
+    })
+  })
+
+
   return (
     <div className='part7 w-full h-[100vh] bg-primary text-secondary flex items-center justify-center'>
-      <div className='ourWorktxt absolute w-[60vw] h-[0vh] z-[9] '>
-        <h1 className='our absolute top-0 left-[35%] sm:text-[6vw] tracking-tighter -translate-x-1/2 -translate-y-1/2' >Our</h1>
-        <h1 className='work absolute bottom-0 right-[42%] sm:text-[6vw] tracking-tighter  translate-x-1/2 translate-y-1/2' >Work</h1>
+      <div className='ourWorktxt absolute w-[75vw] sm:w-[60vw]  h-[0vh] z-[9] bg-third'>
+        <h1 className='our absolute top-0 left-[30%] sm:left-[35%] text-[10vw] sm:text-[6vw] tracking-tighter -translate-x-1/2 -translate-y-1/2' >Our</h1>
+        <h1 className='work absolute bottom-0 right-[40%] sm:right-[42%] text-[10vw] sm:text-[6vw] tracking-tighter  translate-x-1/2 translate-y-1/2' >Work</h1>
       </div>
-      <div className='ourWorktxtDiv relative w-[60vw] flex items-center justify-center h-[60vh] overflow-hidden'>
-          <div className='scrollWork'>
-              <div className='scrollWorkImg'>
+      <div className='ourWorktxtDiv relative w-[75vw] sm:w-[60vw] flex items-center justify-center h-[0vh] overflow-hidden'>
+          <div className='scrollWork w-[100%] h-[60vh] overflow-hidden'>
+              <div className='scrollWorkImg w-[100%] mt-[0%]'>
                 <img className='w-[100%] h-[100%] object-cover' src="https://assets-global.website-files.com/64b117fb0e09e8ce5768e4fe/64ba4bd9fa4742b8e1f3b6f6_LAYOUT-7-p-2000.jpg" alt="" />
                 <img className='w-[100%] h-[100%] object-cover' src="https://assets-global.website-files.com/64b117fb0e09e8ce5768e4fe/64ba4bd8e3fee0b8d4e3a67b_LAYOUT-5-p-1080.jpg" alt="" />
                 <img className='w-[100%] h-[100%] object-cover' src="https://assets-global.website-files.com/64b117fb0e09e8ce5768e4fe/64ba4bd95bf2f4fe4cfdf9b9_LAYOUT-4-p-1600.jpg" alt="" />

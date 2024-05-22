@@ -22,7 +22,6 @@ function CurvedSec() {
                     start: '50% 100%',
                     end: '50% 50%',
                     scrub: 1,
-                    markers: true,
                 }
             })
             gsap.to('.textAreaHover5 h2', {

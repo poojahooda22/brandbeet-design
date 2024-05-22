@@ -13,7 +13,7 @@ function Footer() {
     //         }
     //     })
     //     tl.from('.footPtag p', {
-    //         stagger: 1,
+    //         stag
     //     })  
     // })
 

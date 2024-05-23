@@ -18,7 +18,7 @@ function Footer() {
                     <div className='w-full flex flex-col items-center'>
                         <div className=' flex flex-col items-center justify-between'>
                             <h2 className='text-[12vw] sm:text-[8vw] tracking-tighter'>
-                                B<>r</><>a</><>n</><>d</><>b</><>e</><>et
+                                B<>r</><>a</><>n</><>d</><>b</><>e</>et
                             </h2>
                             <div className='text-[4vw] sm:text-[1.5vw] text-center tracking-tighter'>
                                 <div className='footPtag overflow-hidden'>

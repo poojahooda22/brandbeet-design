@@ -18,7 +18,7 @@ function Footer() {
                     <div className='w-full flex flex-col items-center'>
                         <div className=' flex flex-col items-center justify-between'>
                             <h2 className='text-[12vw] sm:text-[8vw] tracking-tighter'>
-                                <>B
+                                <B
                                 <span>r</span>
                                 <span>a</span>
                                 <span>n</span>

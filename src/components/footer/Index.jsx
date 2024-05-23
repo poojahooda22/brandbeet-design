@@ -21,8 +21,7 @@ function Footer() {
                                 B
                                 <>r</>
                                 <>a</>
-                                <>n</>
-                                <>d</><>b</><>e</><>e</>t
+                                <>n</><>d</><>b</><>e</><>e</>t
                             </h2>
                             <div className='text-[4vw] sm:text-[1.5vw] text-center tracking-tighter'>
                                 <div className='footPtag overflow-hidden'>

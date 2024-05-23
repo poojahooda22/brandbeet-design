@@ -25,7 +25,7 @@ function Footer() {
                                 <>d</>
                                 <>b</>
                                 <>e</>
-                                <s>e</s>
+                                <>e</>
                                 <span>t</span>
                             </h2> 
                             <div className='text-[4vw] sm:text-[1.5vw] text-center tracking-tighter'>

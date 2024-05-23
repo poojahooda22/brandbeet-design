@@ -22,7 +22,7 @@ function Footer() {
                                 <>r</>
                                 <>a</>
                                 <>n</>
-                                <s>d</s>
+                                <>d</>
                                 <span>b</span>
                                 <span>e</span>
                                 <span>e</span>

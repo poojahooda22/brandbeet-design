@@ -20,7 +20,7 @@ function Footer() {
                             <h2 className='text-[12vw] sm:text-[8vw] tracking-tighter'>
                                 B
                                 <>r</>
-                                <spa>a</spa>
+                                <sp>a</sp>
                                 <span>n</span>
                                 <span>d</span>
                                 <span>b</span>

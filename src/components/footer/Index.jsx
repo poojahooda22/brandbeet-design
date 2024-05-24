@@ -38,7 +38,7 @@ function Footer() {
                                 </div>
                             </div>
                         </div>   
-                        <h5 className='absolute bottom-10 tracking-tighter'>© Brandbeet 2023</h5>
+                        <h5 className='absolute bottom-10 tracking-tighter'>© Brandbeet 2024</h5>
                     </div>   
                 </div>
             </div>

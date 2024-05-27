@@ -3,7 +3,7 @@ import { useGSAP } from '@gsap/react'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import UnderLine from '../Underline/Index';
-import style from './style.module.css'
+import Button from '../button/Index';
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -55,7 +55,6 @@ function CurvedSec() {
         <div className='hidden sm:flex roundedDivWrapper2 relative w-[100%] h-[100px]  overflow-hidden pt-[5vw] '>
             <div className='roundedDiv w-[150%] h-[750%] rounded-[50%] bg-secondary  absolute left-1/2 bottom-0 -translate-x-1/2 '></div>
         </div>
-        
 
         <div className='WorkSec w-[100%]  h-[50vh] sm:h-[80vh] mt-[25vw] sm:mt-[10vw] relative px-[5vw] sm:px-[2.5vw] overflow-hidden'>
             <div className='textArea absolute left-[5%] sm:left-[2%] opacity-[.2] text-[10vw] leading-[10vw]  sm:text-[7vw] tracking-tighter sm:whitespace-nowrap '>
@@ -79,20 +78,12 @@ function CurvedSec() {
         <div className='w-full px-[5vw] sm:px-[2.5vw] py-[8vw] sm:py-[4vw] flex items-center justify-between sm:justify-start tracking-tighter '>
             <h3 className='w-1/2 text-[9vw] sm:text-[4vw] '>Brand</h3>
             <div className='z-[8]'>
-            <div className='bg-primary px-[6vw] py-[4vw] sm:px-[2.2vw] sm:py-[1.2vw] rounded-full cursor-pointer'>
-                    <div 
-                        className={`ctaBook ${style.ctaBook} text-[4vw] sm:text-[1vw]
-                         text-secondary h-[5.2vw] sm:h-[1.3vw] whitespace-nowrap overflow-hidden`}
-                    >
-                        <h3 className=''>View Pricing</h3>
-                        <h3 className=''>View Pricing</h3>
-                    </div>
-                </div>
+            <Button color='bg-primary' text='View Pricing' color2='text-secondary' />
             </div>
         </div>
 
         <div className='px-[5vw] sm:px-[2.5vw]'>
-            <UnderLine marginBottom='0vw' marginTop='0vw' />
+            <UnderLine marginBottom='0vw'  marginTop='0vw' />
         </div>
 
         <div className='w-full px-[5vw] sm:px-[2.5vw] py-[8vw] sm:py-[2vw] flex items-center '>

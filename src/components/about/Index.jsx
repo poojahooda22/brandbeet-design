@@ -60,7 +60,7 @@ function About() {
     <div className='part2 w-[100%] bg-secondary'>
         
         {/* //rounded div */}
-        <div className='hidden sm:flex roundedDivWrapper relative w-[100%] h-[100px]  overflow-hidden mt-[-3.7vw] '>
+        <div className='hidden sm:flex roundedDivWrapper relative w-[100%] h-[100px]  overflow-hidden mt-[-4.8vw] '>
             <div className='roundedDiv w-[150%] h-[750%] rounded-[50%] bg-secondary absolute left-1/2 -translate-x-1/2 '></div>
         </div>
         <div className='content2 w-[100%] h-[50vh] sm:h-[100vh] relative flex items-center px-[5vw] sm:px-[2.5vw] overflow-hidden'>

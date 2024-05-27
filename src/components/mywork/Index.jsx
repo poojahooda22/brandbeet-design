@@ -33,7 +33,7 @@ function Work() {
     }, 'sc')
     tl.to('.scrollWorkImg', {
       marginTop: '-460%',
-      duration: 2,
+      duration: 2.5,
       ease: Power3.easeIn
     })   
   })

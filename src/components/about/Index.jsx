@@ -2,13 +2,13 @@ import React from 'react';
 import { useGSAP } from '@gsap/react'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import style from './style.module.css'
 import apple from '../../../public/images/apple.svg'
 import dell from '../../../public/images/dell.svg'
 import hp from '../../../public/images/hp.svg'
 import ibm from '../../../public/images/ibm.svg'
 import oral from '../../../public/images/oral.svg'
 import Image from 'next/image';
+import Button from '../button/Index';
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -81,24 +81,8 @@ function About() {
         <div className=' px-[5vw] sm:px-[2.5vw] sm:flex items-center justify-between pb-[12vw] sm:pb-[4vw] pt-[14vw] sm:pt-0'>
             <h3 className='text-[4vw] sm:text-[1.2vw] text-textComplimentary tracking-tight mb-[4vw] sm:mb-0'>Unlock profit with monthly design sprints.</h3>
             <div className='cta flex items-center justify-between sm:gap-[1vw] cursor-pointer'>
-                <div className='bg-primary px-[10vw] py-[6vw] sm:px-[2.2vw] sm:py-[1.2vw] rounded-full'>
-                    <div 
-                        className={`ctaBook ${style.ctaBook} text-[4vw] sm:text-[1vw] tracking-tight
-                         text-secondary h-[5.2vw] sm:h-[1.2vw] whitespace-nowrap overflow-hidden`}
-                    >
-                        <h3 className=''>Book a demo</h3>
-                        <h3 className=''>Book a demo</h3>
-                    </div>
-                </div>
-                <div className='bg-gray px-[10vw] py-[6vw] sm:px-[2.2vw] sm:py-[1.2vw] rounded-full'>
-                    <div 
-                        className={`ctaBook ${style.ctaBook} text-[4vw] sm:text-[1vw] tracking-tight
-                        text-primary h-[5.2vw] sm:h-[1.3vw] whitespace-nowrap overflow-hidden`}
-                    >
-                         <h3 className=''>View Pricing</h3>
-                        <h3 className=''>View Pricing</h3>
-                    </div>
-                </div>
+                <Button color='bg-primary' text='Book a demo' color2='text-secondary' />
+                <Button color='bg-gray'  text='View Pricing' color2='text-primary' />
             </div>
         </div>
 

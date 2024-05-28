@@ -53,6 +53,9 @@ function Work() {
                 <Image src="https://assets-global.website-files.com/64b117fb0e09e8ce5768e4fe/64ba4bd95bf2f4fe4cfdf9b9_LAYOUT-4-p-1600.jpg" alt="" width={1000} height={100} className='w-[100%] h-[100%] object-cover'/>
                 <Image src="https://assets-global.website-files.com/64b117fb0e09e8ce5768e4fe/64be4044e5242bb154e2c347_HF%204-p-1600.jpg" alt="" width={1000} height={100} className='w-[100%] h-[100%] object-cover'/>
                 
+                <Image src="https://assets-global.website-files.com/64b117fb0e09e8ce5768e4fe/64be4044e5242bb154e2c347_HF%204-p-1600.jpg" alt="" width={1000} height={100} className='w-[100%] h-[100%] object-cover'/>
+                <Image src="https://assets-global.website-files.com/64b117fb0e09e8ce5768e4fe/64be4044e5242bb154e2c347_HF%204-p-1600.jpg" alt="" width={1000} height={100} className='w-[100%] h-[100%] object-cover'/>
+                
                 
                 <img className='w-[100%] h-[100%] object-cover' src="https://assets-global.website-files.com/64b117fb0e09e8ce5768e4fe/64ba4bd95bf2f4fe4cfdf9b9_LAYOUT-4-p-1600.jpg" alt="" />
                 

@@ -56,7 +56,7 @@ function Work() {
                 <Image src="https://assets-global.website-files.com/64b117fb0e09e8ce5768e4fe/64ba4bd9e3fee0b8d4e3a73c_LAYOUT-6-p-1600.jpg" alt="" width={1000} height={100} className='w-[100%] h-[100%] object-cover'/>
                 <Image src="https://assets-global.website-files.com/64b117fb0e09e8ce5768e4fe/64ba4bd8106fa4f36fc39bb9_LAYOUT-17-p-1600.jpg" alt="" width={1000} height={100} className='w-[100%] h-[100%] object-cover'/>
 
-                <Image src="https://assets-global.website-files.com/64b117fb0e09e8ce5768e4fe/64ba4bd9e3fee0b8d4e3a73c_LAYOUT-6-p-1600.jpg" alt="" width={1000} height={100} className='w-[100%] h-[100%] object-cover'/>
+                <Image src="https://assets-global.website-files.com/64b117fb0e09e8ce5768e4fe/64ba4bd8fa4742b8e1f3b6b8_LAYOUT-8-p-1600.jpg" alt="" width={1000} height={100} className='w-[100%] h-[100%] object-cover'/>
                 <Image src="https://assets-global.website-files.com/64b117fb0e09e8ce5768e4fe/64ba4bd8106fa4f36fc39bb9_LAYOUT-17-p-1600.jpg" alt="" width={1000} height={100} className='w-[100%] h-[100%] object-cover'/>
                 
                 
@@ -64,7 +64,7 @@ function Work() {
                 
                 
                 
-                <img className='w-[100%] h-[100%] object-cover' src="https://assets-global.website-files.com/64b117fb0e09e8ce5768e4fe/64ba4bd8fa4742b8e1f3b6b8_LAYOUT-8-p-1600.jpg" alt="" />
+                <img className='w-[100%] h-[100%] object-cover' src="" alt="" />
                 <img className='w-[100%] h-[100%] object-cover' src="https://assets-global.website-files.com/64b117fb0e09e8ce5768e4fe/64ba4bd9e3fe0c7e42cfe703_LAYOUT-13-p-1600.jpg" alt="" />
               </div>
           </div>

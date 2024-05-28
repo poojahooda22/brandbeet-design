@@ -14,7 +14,7 @@ function Work() {
       scrollTrigger: {
         trigger: '.part7',
         start: '50% 50%',
-        end: '200% 50%',
+        end: '200% -150%',
         scrub: 1,
         pin: true,
       }
@@ -33,8 +33,8 @@ function Work() {
     }, 'sc')
     tl.to('.scrollWorkImg', {
       marginTop: '-460%',
-      duration: 2.5,
-      ease: Power3.easeIn
+      duration: 4,
+      ease: "expo.in",
     })   
   })
 

@@ -44,12 +44,17 @@ function About() {
         const tl = gsap.timeline({
             scrollTrigger: {
               trigger: '.part2',
+              scroller: 'body',
               start: '0% 70%',
               end: '50% 50%',
               scrub: 1,
+
             }
         })
-        tl.to('.roundedDivWrapper', {
+        tl.fromTo('.roundedDivWrapper', {
+            height: 100,
+            marginTop: '-3.8vw'
+        }, {
             height: 0,
             marginTop: 0,
         })
@@ -60,9 +65,15 @@ function About() {
     <div className='part2 w-[100%] bg-secondary'>
         
         {/* //rounded div */}
-        <div className='hidden sm:flex roundedDivWrapper relative w-[100%] h-[100px]  overflow-hidden mt-[-4.8vw] '>
+        <div className='hidden sm:flex roundedDivWrapper relative w-[100%] h-[100px] overflow-hidden '>
             <div className='roundedDiv w-[150%] h-[750%] rounded-[50%] bg-secondary absolute left-1/2 -translate-x-1/2 '></div>
         </div>
+        {/* <div class="roundedDivWrapper absolute w-full h-[150px] overflow-hidden rounded-[100%] left-0 top-0 -translate-y-1/2 z-10">
+            <div class="w-full h-1/2 bg-secondary"></div>
+        </div> */}
+
+        
+        
         <div className='content2 w-[100%] h-[50vh] sm:h-[100vh] relative flex items-center px-[5vw] sm:px-[2.5vw] overflow-hidden'>
             <div className='textArea absolute left-[5%] sm:left-[2%] opacity-[.2] text-[10vw] leading-[10vw]  sm:text-[7vw] tracking-tighter sm:whitespace-nowrap '>
                 <h2>Strategic design solutions</h2>

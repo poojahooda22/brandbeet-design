@@ -6,6 +6,7 @@
 .imgDiv {
     width: 100%;
     height: calc(100%/4);
+    /* aspect-ratio: 2 / 1; */
     border-radius: 4px;
     overflow: hidden;  
 }

@@ -160,7 +160,8 @@ function Landing() {
           <h1 className='opacity-0 tracking-tighter 
             leading-[10vw] text-[12vw] sm:text-[11vw]'
           >
-            Brandbeet</h1>
+            Brandbeet
+            </h1>
           <div className='scrollDown absolute bottom-12 sm:bottom-10 sm:left-1/2 flex flex-col items-center gap-1'>
             <h3 className='text-[2.3vw] sm:text-[.6vw] uppercase text-center'>scroll down</h3>
             <div className='scrollingP w-[16vw] sm:w-[5vw] bg-third h-[.3vw] sm:h-[.1vw] relative rounded-md'>

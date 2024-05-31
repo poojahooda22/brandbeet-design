@@ -55,7 +55,8 @@ function Landing() {
       md:h-[100vh] bg-primary overflow-hidden'
     >
       <div 
-        className='contentPart1 w-[100%] h-[100vh] md:w-[100%] 
+        className='contentPart1 w-[100%] h-[100vh] 
+        md:w-[100%] 
         md:h-[100vh] 
         flex items-center relative
         justify-center'

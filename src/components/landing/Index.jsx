@@ -167,7 +167,8 @@ function Landing() {
             sm:left-1/2 flex flex-col items-center gap-1'
           >
             <h3 
-              className='text-[2.3vw] sm:text-[.6vw] uppercase text-center'>scroll down</h3>
+              className='text-[2.3vw] sm:text-[.6vw] 
+              uppercase text-center'>scroll down</h3>
             <div className='scrollingP w-[16vw] sm:w-[5vw] bg-third h-[.3vw] sm:h-[.1vw] relative rounded-md'>
               <div className='scrolling absolute top-0 w-[0vw] sm:w-[0vw] bg-secondary  h-[.3vw] sm:h-[.1vw] rounded-md'></div>
             </div>

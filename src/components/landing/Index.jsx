@@ -163,7 +163,8 @@ function Landing() {
             Brandbeet
           </h1>
           <div 
-            className='scrollDown absolute bottom-12 sm:bottom-10 
+            className='scrollDown absolute 
+            bottom-12 sm:bottom-10 
             sm:left-1/2 flex flex-col items-center gap-1'
           >
             <h3 
